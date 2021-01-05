@@ -1,30 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import Particles from 'react-particles-js';
+import Landing from './components/hero/landing';
+import Navbar from './components/my-navbar/navbar.js'
 
 function App() {
   return (
     <div className="App">
-      <Particles id="particles-js"
-         params={{
-             particles: {
-                 number: {
-                     value: 50,
-                 },
-                 size: {
-                     value: 3,
-                 }
-             },
-             interactivity: {
-                 events: {
-                     onhover: {
-                         enable: true,
-                         mode: "repulse"
-                     }
-                 }
-             }
-         }}
-      />
+      <Navbar/>
+      <Landing/>
       <h1>hello</h1>
     </div>
   );
