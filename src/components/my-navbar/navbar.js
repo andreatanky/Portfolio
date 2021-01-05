@@ -22,12 +22,17 @@ function Navbar() {
                 <h1 href="#">andreatanky</h1>
             </div>
             <ul className='nav-menu'>
-            {MenuItems.map((item, index) => {
+                <li><HashLink className="nav-links" smooth to="#portfolio">Portfolio</HashLink></li>
+                <li><HashLink className="nav-links" smooth to="#skills">Skills</HashLink></li>
+                <li><HashLink className="nav-links" smooth to="#experience">Experience</HashLink></li>
+                <li><HashLink className="nav-links" smooth to="#about">About</HashLink></li>
+                <li><HashLink className="nav-links" smooth to="#contact">Contact</HashLink></li>
+            {/* {MenuItems.map((item, index) => {
                 return (
                     <li><a className={item.cName} href={item.url}>{item.title}</a></li>
                 )
-            })}
-        </ul>
+            })} */}
+            </ul>
         </nav>
     )
 }
