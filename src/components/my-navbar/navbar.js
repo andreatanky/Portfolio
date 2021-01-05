@@ -1,6 +1,7 @@
 import React, { Component, useEffect, useState } from 'react'
 import './navbar.css';
 import { MenuItems } from './menuItems';
+import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
     const [navbar, setNavbar] = useState(false);
