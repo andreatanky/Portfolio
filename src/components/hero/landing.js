@@ -8,7 +8,7 @@ class Landing extends Component {
             params={{
                 particles: {
                     number: {
-                        value: 100,
+                        value: 150,
                         density: {
                             enable: true,
                             value_area: 1000
@@ -18,11 +18,12 @@ class Landing extends Component {
                         value: '#ff006e'
                     },
                     size: {
-                      value: 5,
+                      value: 6,
                       random: true,
                   },
                     line_linked: {
-                        enable: true
+                        enable: true,
+                        color: '#c4fff9'
                     },
                     move: {
                         speed: 0.9
