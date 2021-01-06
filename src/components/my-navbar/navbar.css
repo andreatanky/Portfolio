@@ -1,5 +1,5 @@
 .navbar {
-    transition: all 0.2s;
+    z-index: 1001;
     position: fixed;
     width: 100%;
     display: flex;
@@ -8,10 +8,12 @@
     height: 80px;
     background: transparent;
     font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar-active {
-    transition: all 0.2s;
+    z-index: 1001;
+    transition: all 0.1s;
     position: fixed;
     width: 100%;
     display: flex;
@@ -20,7 +22,7 @@
     height: 80px;
     background:#011627;
     font-size: 1.2rem;
-    transition: all 1s linear;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo {
