@@ -54,10 +54,10 @@ function CardItem() {
                    </CardContent>
                </CardActionArea>
                <CardActions>
-                   <Button size="small" color="primary">
+                   <Button variant="contained" size="small" color="secondary">
                        Github
                    </Button>
-                   <Button size="small" color="primary">
+                   <Button variant="contained" size="small" color="secondary">
                        Documentation
                    </Button>
                </CardActions>

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Particles from 'react-particles-js';
 import './landing.css';
 import Button from '@material-ui/core/Button';
+import { HashLink } from 'react-router-hash-link';
 
 
 class Landing extends Component {
@@ -10,8 +11,8 @@ class Landing extends Component {
             <div>
                 <div className="landingText">
                     <h1>Hello, I'm <span> Andrea Tan</span>.<br/> I'm a year 2 Computer Science student.</h1>
-                    <Button variant="contained">
-                        View my work
+                    <Button variant="contained" size="small">
+                        <HashLink className="nav-link" smooth to="#portfolio">View my work</HashLink>
                     </Button>
                 </div>
                 <Particles id="particles-js"

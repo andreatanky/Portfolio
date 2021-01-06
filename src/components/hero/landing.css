@@ -15,3 +15,10 @@
 .landingText Button {
     color: white;
 }
+
+.nav-link {
+    z-index : 1001;
+    color: #ff006e;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
