@@ -4,7 +4,7 @@ import './projects.css';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import {CardMedia, Container} from "@material-ui/core";
+import {CardMedia, colors, Container} from "@material-ui/core";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
@@ -12,6 +12,9 @@ import Typography from "@material-ui/core/Typography";
 import CardActions from "@material-ui/core/CardActions";
 import Button from "@material-ui/core/Button";
 import { ProjectItems } from './projectItems';
+import { FaGithub } from 'react-icons/fa';
+import { FaReadme } from 'react-icons/fa';
+
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -37,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
     },
     media: {
         height: 320,
-    },
+    }
 }));
 
 // const useStyles = makeStyles({
@@ -91,10 +94,10 @@ function Projects() {
                                     </CardActionArea>
                                     <CardActions>
                                         <Button variant="contained" size="small" color="secondary">
-                                            Github
+                                            <FaGithub />
                                         </Button>
-                                        <Button variant="contained" size="small" color="secondary">
-                                            Documentation
+                                        <Button color="secondary" variant="contained" size="small">
+                                            <FaReadme />
                                         </Button>
                                     </CardActions>
                                 </Card>
@@ -121,10 +124,10 @@ function Projects() {
                                     </CardActionArea>
                                     <CardActions>
                                         <Button variant="contained" size="small" color="secondary">
-                                            Github
+                                            <FaGithub />
                                         </Button>
                                         <Button variant="contained" size="small" color="secondary">
-                                            Documentation
+                                            <FaReadme />
                                         </Button>
                                     </CardActions>
                                 </Card>
@@ -151,10 +154,10 @@ function Projects() {
                                     </CardActionArea>
                                     <CardActions>
                                         <Button variant="contained" size="small" color="secondary">
-                                            Github
+                                        <FaGithub />
                                         </Button>
                                         <Button variant="contained" size="small" color="secondary">
-                                            Documentation
+                                            <FaReadme />
                                         </Button>
                                     </CardActions>
                                 </Card>
@@ -181,10 +184,10 @@ function Projects() {
                                     </CardActionArea>
                                     <CardActions>
                                         <Button variant="contained" size="small" color="secondary">
-                                            Github
+                                            <FaGithub />
                                         </Button>
-                                        <Button variant="contained" size="small" color="secondary">
-                                            Documentation
+                                        <Button className={classes.documentation} variant="contained" size="small" color="secondary">
+                                            <FaReadme />
                                         </Button>
                                     </CardActions>
                                 </Card>
