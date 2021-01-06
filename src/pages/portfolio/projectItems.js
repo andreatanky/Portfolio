@@ -8,28 +8,28 @@ export const ProjectItems = [
     {
         imageUrl: socunite,
         title: 'SoCUnite',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an',
         githubUrl: '/',
         documentationUrl: '/'
     },
     {
         imageUrl: ip_poster,
         title: 'DukeBot',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when ',
         githubUrl: '/',
         documentationUrl: '/'
     },
     {
         imageUrl: tp_poster,
         title: 'ProductiveNUS',
-        description: '...',
-        githubUrl: '/',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an ',
+        githubUrl: '',
         documentationUrl: '/'
     },
     {
         imageUrl: fc_img,
         title: 'FoodieCritic',
-        description: '...',
+        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an ',
         githubUrl: '/',
         documentationUrl: '/'
     }

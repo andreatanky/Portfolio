@@ -1,7 +1,8 @@
 .App {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  background-color: #84a59d;
+  background: radial-gradient(circle, #f28482 0%,
+  #4ecdc4 100%);
   font-size: 1.4rem;
   color: #22223b;
 }
