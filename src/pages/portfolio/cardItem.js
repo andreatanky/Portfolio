@@ -9,6 +9,7 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import unavailable from '../../assets/proj_imgs/image-not-available.png';
 import { ProjectItems } from './projectItems';
+import './projects.css';
 
 const useStyles = makeStyles({
     root: {
@@ -26,7 +27,7 @@ const useStyles = makeStyles({
         marginBottom: 12,
     },
     media: {
-        height: 240,
+        height: 320,
     },
 });
 
@@ -36,7 +37,7 @@ function CardItem() {
 
     return (
        ProjectItems.map((item, index) => {
-           return <Card className={classes.root}>
+           return <Card className={classes.root} style={{backgroundColor: "#ffff"}} variant="outlined">
                <CardActionArea>
                    <CardMedia
                        className={classes.media}
@@ -44,20 +45,20 @@ function CardItem() {
                        title= {item.title}
                    />
                    <CardContent>
-                       <Typography gutterBottom variant="h5" component="h2">
+                       <Typography style={{color: "#ff006e", fontFamily:'Poppins', fontWeight: 'bold'}} className="title" gutterBottom variant="h5" component="h2">
                            {item.title}
                        </Typography>
-                       <Typography variant="body2" color="textSecondary" component="p">
+                       <Typography style={{color: "black", fontFamily:'Poppins'}} variant="body2" color="textSecondary" component="p">
                            {item.description}
                        </Typography>
                    </CardContent>
                </CardActionArea>
                <CardActions>
                    <Button size="small" color="primary">
-                       Share
+                       Github
                    </Button>
                    <Button size="small" color="primary">
-                       Learn More
+                       Documentation
                    </Button>
                </CardActions>
            </Card>

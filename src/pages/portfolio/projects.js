@@ -31,10 +31,6 @@ function Projects() {
                     <div className={classes.root}>
                         <h1>Projects</h1>
                         <Grid container spacing = {3}>
-                            <Grid item xs={12} sm={6} lg={4}>
-                                <CardItem/>
-                            </Grid>
-                            <Grid item xs={12} sm={6} lg={4}><CardItem/></Grid>
                             <Grid item xs={12} sm={6} lg={4}><CardItem/></Grid>
                         </Grid>
                     </div>
