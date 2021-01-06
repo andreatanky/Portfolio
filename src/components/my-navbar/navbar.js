@@ -19,7 +19,7 @@ function Navbar() {
     return (
         <nav className={navbar ? 'navbar-active' : 'navbar'}>
              <div className="logo">
-                <h1 href="#">andreatanky</h1>
+                <h1><HashLink className="username" smooth to="#">andreatanky</HashLink></h1>
             </div>
             <ul className='nav-menu'>
                 <li><HashLink className="nav-links" smooth to="#portfolio">Portfolio</HashLink></li>
