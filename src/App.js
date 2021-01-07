@@ -16,13 +16,12 @@ function App() {
     <div className="App">
       <Navbar/>
       <Landing/>
+        <About/>
         <Grid container>
             <Grid item xs={12} sm={12} lg={6}><Experience/></Grid>
             <Grid item xs={12} sm={12} lg={6}><Skills/></Grid>
         </Grid>
-        <About/>
       <Projects/>
-
       <Contact/>
     </div>
   );

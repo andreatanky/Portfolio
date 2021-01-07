@@ -12,7 +12,7 @@ import Typography from "@material-ui/core/Typography";
 import CardActions from "@material-ui/core/CardActions";
 import Button from "@material-ui/core/Button";
 import { ProjectItems } from './projectItems';
-import { FaGithub } from 'react-icons/fa';
+import {FaExternalLinkSquareAlt, FaGithub} from 'react-icons/fa';
 import { FaReadme } from 'react-icons/fa';
 
 
@@ -94,10 +94,10 @@ function Projects() {
                                     </CardActionArea>
                                     <CardActions>
                                         <Button variant="contained" size="small" color="secondary">
-                                            <FaGithub />
+                                            GITHUB<FaGithub style={{paddingLeft: '0.3em'}} />
                                         </Button>
                                         <Button color="secondary" variant="contained" size="small">
-                                            <FaReadme />
+                                            DOCUMENTATION <FaReadme style={{paddingLeft: '0.3em'}} />
                                         </Button>
                                     </CardActions>
                                 </Card>
@@ -124,10 +124,10 @@ function Projects() {
                                     </CardActionArea>
                                     <CardActions>
                                         <Button variant="contained" size="small" color="secondary">
-                                            <FaGithub />
+                                            GITHUB<FaGithub style={{paddingLeft: '0.3em'}} />
                                         </Button>
                                         <Button variant="contained" size="small" color="secondary">
-                                            <FaReadme />
+                                            DOCUMENTATION <FaReadme style={{paddingLeft: '0.3em'}} />
                                         </Button>
                                     </CardActions>
                                 </Card>
@@ -154,10 +154,10 @@ function Projects() {
                                     </CardActionArea>
                                     <CardActions>
                                         <Button variant="contained" size="small" color="secondary">
-                                        <FaGithub />
+                                            GITHUB<FaGithub style={{paddingLeft: '0.3em'}} />
                                         </Button>
                                         <Button variant="contained" size="small" color="secondary">
-                                            <FaReadme />
+                                            DOCUMENTATION <FaReadme style={{paddingLeft: '0.3em'}} />
                                         </Button>
                                     </CardActions>
                                 </Card>
@@ -184,10 +184,10 @@ function Projects() {
                                     </CardActionArea>
                                     <CardActions>
                                         <Button variant="contained" size="small" color="secondary">
-                                            <FaGithub />
+                                            GITHUB<FaGithub style={{paddingLeft: '0.3em'}} />
                                         </Button>
                                         <Button className={classes.documentation} variant="contained" size="small" color="secondary">
-                                            <FaReadme />
+                                            DEMO<FaExternalLinkSquareAlt style={{paddingLeft: '0.3em'}} />
                                         </Button>
                                     </CardActions>
                                 </Card>
