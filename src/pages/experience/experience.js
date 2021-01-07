@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './experience.css'
 
 class Experience extends Component {
     render() {

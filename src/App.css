@@ -3,8 +3,8 @@
   text-align: center;
   background: radial-gradient(circle, #f28482 0%,
   #4ecdc4 100%);
-  font-size: 1.4rem;
   color: #22223b;
+  font-size: calc(12px + .5vw);
 }
 
 .App-logo {

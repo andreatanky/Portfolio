@@ -17,11 +17,12 @@ function App() {
       <Navbar/>
       <Landing/>
         <Grid container>
-            <Grid item xs={12} sm={12} lg={5}><About/></Grid>
-            <Grid item xs={12} sm={12} lg={7}><Skills/></Grid>
+            <Grid item xs={12} sm={12} lg={6}><Experience/></Grid>
+            <Grid item xs={12} sm={12} lg={6}><Skills/></Grid>
         </Grid>
+        <About/>
       <Projects/>
-      <Experience/>
+
       <Contact/>
     </div>
   );

@@ -23,9 +23,6 @@ const useStyles = makeStyles((theme) => ({
     title: {
         fontSize: 19,
     },
-    skillarea: {
-        height: 20
-    }
 }));
 
 const WhiteTextTypography = withStyles({
@@ -42,12 +39,7 @@ function Skills() {
             <div className={classes.root}>
                 <h1 >Skills</h1>
                 <Grid className="area" container spacing={1}>
-                    <Grid style={{paddingTop: "110px"}} item xs={12} sm={12} lg={12}>
-                        {/*<Card width="100%" height="50%" variant="outlined" style={{backgroundColor: "#003459"}} className={classes.paper}>*/}
-                        {/*    <CardContent>*/}
-
-                        {/*    </CardContent>*/}
-                        {/*</Card>*/}
+                    <Grid item xs={12} sm={12} lg={12}>
                         <Box width={1} height="99%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
                             <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px'}}>
                                 <p className="type">Back-end</p>
@@ -55,13 +47,6 @@ function Skills() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={12} lg={12}>
-                        {/*<Card style={{backgroundColor: "#ef476f"}} className={classes.paper}>*/}
-                        {/*    <CardContent>*/}
-                        {/*        <WhiteTextTypography className={classes.title} color="textSecondary" gutterBottom>*/}
-                        {/*            Databases*/}
-                        {/*        </WhiteTextTypography>*/}
-                        {/*    </CardContent>*/}
-                        {/*</Card>*/}
                         <Box width={1} height="99%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
                             <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px'}}>
                                 <p className="type">Front-end</p>
@@ -84,13 +69,6 @@ function Skills() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={12} lg={12}>
-                        {/*<Card style={{backgroundColor: "#003459"}} className={classes.paper}>*/}
-                        {/*    <CardContent>*/}
-                        {/*        <WhiteTextTypography className={classes.title} color="textSecondary" gutterBottom>*/}
-                        {/*            Languages*/}
-                        {/*        </WhiteTextTypography>*/}
-                        {/*    </CardContent>*/}
-                        {/*</Card>*/}
                         <Box width={1} height="99%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
                             <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px'}}>
                                 <p className="type">Databases</p>
@@ -98,16 +76,6 @@ function Skills() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={12} lg={12}>
-                        {/*<Card style={{backgroundColor: "#003459"}} className={classes.paper}>*/}
-                        {/*    <CardContent>*/}
-                        {/*        <WhiteTextTypography className={classes.title} color="textSecondary" gutterBottom>*/}
-                        {/*            Frontend*/}
-                        {/*        </WhiteTextTypography>*/}
-                        {/*        <div>*/}
-
-                        {/*        </div>*/}
-                        {/*    </CardContent>*/}
-                        {/*</Card>*/}
                         <Box width={1} height="90%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
                             <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px'}}>
                                 <p className="type">Version control</p>
@@ -115,13 +83,6 @@ function Skills() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={12} lg={12}>
-                        {/*<Card style={{backgroundColor: "#ef476f"}} className={classes.paper}>*/}
-                        {/*    <CardContent>*/}
-                        {/*        <WhiteTextTypography className={classes.title} color="textSecondary" gutterBottom>*/}
-                        {/*            Version control*/}
-                        {/*        </WhiteTextTypography>*/}
-                        {/*    </CardContent>*/}
-                        {/*</Card>*/}
                         <Box width={1} height="90%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
                             <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px'}}>
                                 <p className="type">Hosting platforms</p>

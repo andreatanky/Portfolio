@@ -1,16 +1,19 @@
 .container {
-    margin-left: 120px;
-    margin-right: 120px;
+    max-width: 90%;
+    width: calc(100% - 15px);
 }
 
 #skills {
     padding-top: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
+
 
 .type {
     text-align: center;
     color: white;
-    font-size: 17px;
+    font-size: 0.8em;
     display: inline-block;
 }
 
@@ -19,6 +22,6 @@
 }
 
 .area {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
