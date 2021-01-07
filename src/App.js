@@ -8,16 +8,20 @@ import Experience from "./pages/experience/experience";
 import Skills from "./pages/skills/skills";
 import About from "./pages/about/about";
 import Contact from "./pages/contact/contact";
+import Grid from "@material-ui/core/Grid";
+import React from "react";
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <Landing/>
+        <Grid container>
+            <Grid item xs={12} sm={12} lg={5}><About/></Grid>
+            <Grid item xs={12} sm={12} lg={7}><Skills/></Grid>
+        </Grid>
       <Projects/>
-      <Skills/>
       <Experience/>
-      <About/>
       <Contact/>
     </div>
   );

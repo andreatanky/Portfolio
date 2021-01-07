@@ -41,6 +41,7 @@ class Landing extends Component {
                            },
                        },
                        interactivity: {
+                           detect_on:"window",
                            events: {
                                onhover: {
                                    enable: true,

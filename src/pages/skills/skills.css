@@ -6,3 +6,15 @@
 #skills {
     padding-top: 80px;
 }
+
+.type {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.logos {
+    display: inline-block;
+}
+
