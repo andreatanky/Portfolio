@@ -21,7 +21,12 @@ function About() {
         <div id="about">
             <h1>About</h1>
             <Container id="wrapper">
-                <Avatar style={{ height: '300px', width: '300px' }} className={classes.large} id="andrea" alt="Remy Sharp" src={andrea} />
+                <Avatar style={{ height: '280px', width: '280px', textAlign: 'center' }} className={classes.large} id="andrea" alt="Remy Sharp" src={andrea} />
+            </Container>
+            <Container className="contain">
+                <div>
+                    <p id="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
             </Container>
         </div>
     )

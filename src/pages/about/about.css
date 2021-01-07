@@ -4,5 +4,10 @@
 }
 
 #wrapper {
-    margin-left: 100px;
+    padding-left: 110px;
+}
+
+#text {
+    color: white;
+    font-size: 20px;
 }
