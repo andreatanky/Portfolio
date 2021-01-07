@@ -9,6 +9,18 @@
     padding-right: 30px;
 }
 
+#box {
+    display:flex;
+    flex-direction:row;
+}
+
+#para1 {
+    margin-left: 1em;
+}
+
+#para {
+    margin-left: 1em;
+}
 
 .type {
     text-align: center;
@@ -17,8 +29,9 @@
     display: inline-block;
 }
 
-.logos {
-    display: inline-block;
+#logos {
+    display:flex;
+    flex-direction:row;
 }
 
 .area {
