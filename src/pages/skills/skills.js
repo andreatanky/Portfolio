@@ -41,14 +41,14 @@ function Skills() {
         <div className="container" id="skills">
             <div className={classes.root}>
                 <h1 >Skills</h1>
-                <Grid className="skillarea" container spacing={0}>
-                    <Grid item xs={12} sm={12} lg={12}>
+                <Grid className="area" container spacing={1}>
+                    <Grid style={{paddingTop: "110px"}} item xs={12} sm={12} lg={12}>
                         {/*<Card width="100%" height="50%" variant="outlined" style={{backgroundColor: "#003459"}} className={classes.paper}>*/}
                         {/*    <CardContent>*/}
 
                         {/*    </CardContent>*/}
                         {/*</Card>*/}
-                        <Box width={1} height="93%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
+                        <Box width={1} height="99%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
                             <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px'}}>
                                 <p className="type">Back-end</p>
                             </Box>
@@ -62,7 +62,7 @@ function Skills() {
                         {/*        </WhiteTextTypography>*/}
                         {/*    </CardContent>*/}
                         {/*</Card>*/}
-                        <Box width={1} height="93%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
+                        <Box width={1} height="99%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
                             <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px'}}>
                                 <p className="type">Front-end</p>
                             </Box>
@@ -77,7 +77,7 @@ function Skills() {
 
                         {/*    </CardContent>*/}
                         {/*</Card>*/}
-                        <Box width={1} height="93%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
+                        <Box width={1} height="99%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
                             <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px'}}>
                                 <p className="type">Languages</p>
                             </Box>
@@ -91,7 +91,7 @@ function Skills() {
                         {/*        </WhiteTextTypography>*/}
                         {/*    </CardContent>*/}
                         {/*</Card>*/}
-                        <Box width={1} height="93%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
+                        <Box width={1} height="99%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
                             <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px'}}>
                                 <p className="type">Databases</p>
                             </Box>
