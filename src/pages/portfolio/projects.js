@@ -193,6 +193,66 @@ function Projects() {
                                 </Card>
                                 {/*card ends here*/}
                             </Grid>
+                            <Grid item xs={12} sm={6} lg={4}>
+                                {/*insert card here*/}
+
+                                <Card className={classes.root} style={{backgroundColor: "#ffff"}} variant="outlined">
+                                    <CardActionArea>
+                                        <CardMedia
+                                            className={classes.media}
+                                            image= {ProjectItems[4].imageUrl}
+                                            title= {ProjectItems[4].title}
+                                        />
+                                        <CardContent>
+                                            <Typography style={{color: "#ff006e", fontFamily:'Poppins', fontWeight: 'bold'}} className="title" gutterBottom variant="h5" component="h2">
+                                                {ProjectItems[4].title}
+                                            </Typography>
+                                            <Typography style={{color: "black", fontFamily:'Poppins'}} variant="body2" color="textSecondary" component="p">
+                                                {ProjectItems[4].description}
+                                            </Typography>
+                                        </CardContent>
+                                    </CardActionArea>
+                                    <CardActions>
+                                        <Button variant="contained" size="small" color="secondary">
+                                            GITHUB<FaGithub style={{paddingLeft: '0.3em'}} />
+                                        </Button>
+                                        <Button variant="contained" size="small" color="secondary">
+                                            DOCUMENTATION <FaReadme style={{paddingLeft: '0.3em'}} />
+                                        </Button>
+                                    </CardActions>
+                                </Card>
+                                {/*card ends here*/}
+                            </Grid>
+                            <Grid item xs={12} sm={6} lg={4}>
+                                {/*insert card here*/}
+
+                                <Card className={classes.root} style={{backgroundColor: "#ffff"}} variant="outlined">
+                                    <CardActionArea>
+                                        <CardMedia
+                                            className={classes.media}
+                                            image= {ProjectItems[5].imageUrl}
+                                            title= {ProjectItems[5].title}
+                                        />
+                                        <CardContent>
+                                            <Typography style={{color: "#ff006e", fontFamily:'Poppins', fontWeight: 'bold'}} className="title" gutterBottom variant="h5" component="h2">
+                                                {ProjectItems[5].title}
+                                            </Typography>
+                                            <Typography style={{color: "black", fontFamily:'Poppins'}} variant="body2" color="textSecondary" component="p">
+                                                {ProjectItems[5].description}
+                                            </Typography>
+                                        </CardContent>
+                                    </CardActionArea>
+                                    <CardActions>
+                                        <Button variant="contained" size="small" color="secondary">
+                                            GITHUB<FaGithub style={{paddingLeft: '0.3em'}} />
+                                        </Button>
+                                        <Button variant="contained" size="small" color="secondary">
+                                            DOCUMENTATION <FaReadme style={{paddingLeft: '0.3em'}} />
+                                        </Button>
+                                    </CardActions>
+                                </Card>
+                                {/*card ends here*/}
+                            </Grid>
                         </Grid>
                     </div>
                 </Container>
