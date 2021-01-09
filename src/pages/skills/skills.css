@@ -9,6 +9,11 @@
     padding-right: 30px;
 }
 
+.outerBox {
+    display:flex;
+    flex-direction:row;
+}
+
 #box {
     display:flex;
     flex-direction:row;
@@ -30,6 +35,7 @@
 }
 
 #logos {
+    padding: 0.2em;
     display:flex;
     flex-direction:row;
 }
