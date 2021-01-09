@@ -75,7 +75,7 @@ function Skills() {
                                 <div id="logos">
                                     <p id="para1"><Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={html}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>HTML5</p></p>
                                     <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={css}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>CSS3</p></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={bs}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>Bootstrap</p></p>
+                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={bs}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>Bootstrap 4</p></p>
                                     <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={flutter}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>Flutter</p></p>
                                     <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={react}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>React</p></p>
                                 </div>
