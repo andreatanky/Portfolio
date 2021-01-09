@@ -18,7 +18,7 @@ function App() {
       <Landing/>
         <About/>
         <Grid container className="outerContainer" spacing={2}>
-            <Grid item xs={12} sm={12} lg={6}><Skills/></Grid>
+            <Grid item xs={12} sm={12} lg={6}><Experience/></Grid>
             <Grid item xs={12} sm={12} lg={6}><Skills/></Grid>
         </Grid>
       <Projects/>
