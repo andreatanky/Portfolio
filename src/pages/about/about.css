@@ -1,10 +1,27 @@
 #about {
-    padding-top: 70px;
+    padding-top: 100px;
 }
 
 #wrapper {
     justify-content: center;
     display: flex;
+    padding-top: 100px;
+}
+
+#buttonContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+#contained {
+    width: 50px;
+    margin: 0 auto;
+}
+
+#aboutTitle {
+    text-align: left;
 }
 
 #text {
@@ -13,12 +30,13 @@
 }
 
 .wrapContainer {
-    padding-left:50px;
-    padding-right: 50px;
+    padding-left:200px;
+    padding-right: 200px;
 }
 
 #description {
+    text-align: left;
     max-width: 500px;
     margin: auto;
-    border: 1px solid #ffffff;
+    border: none;
 }
