@@ -14,11 +14,11 @@ function About() {
                         <Avatar style={{ height: '310px', width: '310px', textAlign: 'center' }} id="andrea" src={andrea} />
                     </Container>
                     <Container id="buttonContainer">
-                        <Button variant="contained" color="secondary">
-                            Secondary
+                        <Button id="button1" variant="contained" color="secondary">
+                            View my Github
                         </Button>
-                        <Button variant="contained" color="secondary">
-                            Secondary
+                        <Button id="button2" variant="contained" style={{backgroundColor:'#4ecdc4'}}>
+                            View my Resume
                         </Button>
                     </Container>
                 </Grid>
