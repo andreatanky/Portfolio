@@ -1,5 +1,5 @@
 #about {
-    padding-top: 80px;
+    padding-top: 70px;
 }
 
 #wrapper {
@@ -10,4 +10,15 @@
 #text {
     color: white;
     font-size: 20px;
+}
+
+.wrapContainer {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+#description {
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid #ffffff;
 }

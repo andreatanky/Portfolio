@@ -61,3 +61,8 @@ img {
   width: 100vw;
   height: 100vh;
 }
+
+.outerContainer {
+  padding-left: 90px;
+  padding-right: 90px;
+}

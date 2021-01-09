@@ -17,8 +17,8 @@ function App() {
       <Navbar/>
       <Landing/>
         <About/>
-        <Grid container>
-            <Grid item xs={12} sm={12} lg={6}><Experience/></Grid>
+        <Grid container className="outerContainer" spacing={2}>
+            <Grid item xs={12} sm={12} lg={6}><Skills/></Grid>
             <Grid item xs={12} sm={12} lg={6}><Skills/></Grid>
         </Grid>
       <Projects/>
