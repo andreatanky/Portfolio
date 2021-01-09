@@ -1,12 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import './skills.css';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import {Avatar, Container, withStyles} from "@material-ui/core";
 import Box from '@material-ui/core/Box';
@@ -22,6 +17,10 @@ import react from '../../assets/skills_imgs/react.png';
 import flutter from '../../assets/skills_imgs/flutter.png';
 import fb from '../../assets/skills_imgs/fb.png';
 import bs from '../../assets/skills_imgs/bs.png';
+import express from '../../assets/skills_imgs/express.png';
+import node from '../../assets/skills_imgs/nodejs.png';
+import git from '../../assets/skills_imgs/git.png';
+import adobe from '../../assets/skills_imgs/xd.png';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -84,26 +83,16 @@ function Skills() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={12} lg={12}>
-                        {/*<Card style={{backgroundColor: "#ef476f"}} className={classes.paper}>*/}
-                        {/*    <CardContent>*/}
-                        {/*        <WhiteTextTypography className={classes.title} color="textSecondary" gutterBottom>*/}
-                        {/*            Hosting*/}
-                        {/*        </WhiteTextTypography>*/}
-
-                        {/*    </CardContent>*/}
-                        {/*</Card>*/}
                         <Box id="box" width={1} height="99%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
                             <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px 0px 0px 25px'}}>
                                 <p style={{textAlign: 'center', lineHeight:'100px'}} className="type">Back-end</p>
                             </Box>
                             <Box width="18%" height="100%">
                                 <div id="logos">
-                                    <p id="para1">
-                                        <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={python}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={js}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={java}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={c}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={dart}/></p>
+                                    <p id="para1"><Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={mdb}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>MongoDB</p></p>
+                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={fb}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>Firebase</p></p>
+                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={node}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>Node.js</p></p>
+                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={express}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>Express</p></p>
                                 </div>
                             </Box>
                         </Box>
@@ -111,50 +100,12 @@ function Skills() {
                     <Grid item xs={12} sm={12} lg={12}>
                         <Box id="box" width={1} height="99%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
                             <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px 0px 0px 25px'}}>
-                                <p style={{textAlign: 'center', lineHeight:'100px'}} className="type">Databases</p>
+                                <p style={{textAlign: 'center', lineHeight:'100px'}} className="type">Others</p>
                             </Box>
                             <Box width="18%" height="100%">
                                 <div id="logos">
-                                    <p id="para1">
-                                        <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={python}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={js}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={java}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={c}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={dart}/></p>
-                                </div>
-                            </Box>
-                        </Box>
-                    </Grid>
-                    <Grid item xs={12} sm={12} lg={12}>
-                        <Box id="box" width={1} height="90%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
-                            <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px 0px 0px 25px'}}>
-                                <p style={{textAlign: 'center'}} className="type">VCS</p>
-                            </Box>
-                            <Box width="18%" height="100%">
-                                <div id="logos">
-                                    <p id="para1">
-                                        <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={python}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={js}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={java}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={c}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={dart}/></p>
-                                </div>
-                            </Box>
-                        </Box>
-                    </Grid>
-                    <Grid item xs={12} sm={12} lg={12}>
-                        <Box id="box" width={1} height="90%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
-                            <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px 0px 0px 25px'}}>
-                                <p className="type">Hosting platforms</p>
-                            </Box>
-                            <Box width="18%" height="100%">
-                                <div id="logos">
-                                    <p id="para1">
-                                        <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={python}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={js}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={java}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={c}/></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={dart}/></p>
+                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={git}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>Git</p></p>
+                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={adobe}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>AdobeXD</p></p>
                                 </div>
                             </Box>
                         </Box>
