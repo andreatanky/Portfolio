@@ -1,8 +1,7 @@
 .App {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  background: radial-gradient(circle, #f28482 0%,
-  #4ecdc4 100%);
+  background: linear-gradient(#f28482, #61a5c2);
   color: #22223b;
   font-size: calc(12px + .5vw);
 }
@@ -57,4 +56,5 @@ img {
 .outerContainer {
   padding-left: 35px;
   padding-right: 35px;
+  padding-bottom: 80px;
 }

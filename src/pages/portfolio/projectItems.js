@@ -41,7 +41,7 @@ export const ProjectItems = [
     {
         title: 'DukeBot',
         imageUrl: ip_poster,
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when ',
+        description: 'A personalised ChatBot to help me remember my tasks at hand in the form of a todo-list.',
         url: {
             github: {
                 link: "https://github.com/andreatanky/ip",
