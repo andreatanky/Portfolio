@@ -21,6 +21,7 @@ import express from '../../assets/skills_imgs/express.png';
 import node from '../../assets/skills_imgs/nodejs.png';
 import git from '../../assets/skills_imgs/git.png';
 import adobe from '../../assets/skills_imgs/xd.png';
+import heroku from '../../assets/skills_imgs/hero.png'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -51,8 +52,8 @@ function Skills() {
                 <h1 >Skills</h1>
                 <Grid className="area" container spacing={1}>
                     <Grid item xs={12} sm={12} lg={12}>
-                        <Box id="box" width={1} height="99%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
-                            <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px 0px 0px 25px'}}>
+                        <Box id="box" width={1} height="99%" style={{backgroundColor: "rgba(0, 31, 84, 0.2)", borderRadius: '25px'}}>
+                            <Box width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '25px 0px 0px 25px'}}>
                                 <p style={{textAlign: 'center', lineHeight:'100px'}} className="type">Languages</p>
                             </Box>
                             <Box width="18%" height="100%">
@@ -67,8 +68,8 @@ function Skills() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={12} lg={12}>
-                        <Box id="box" width={1} height="99%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
-                            <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px 0px 0px 25px'}}>
+                        <Box id="box" width={1} height="99%" style={{backgroundColor: "rgba(0, 31, 84, 0.2)", borderRadius: '25px'}}>
+                            <Box width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '25px 0px 0px 25px'}}>
                                 <p style={{textAlign: 'center', lineHeight:'100px'}} className="type">Front-end</p>
                             </Box>
                             <Box width="18%" height="100%">
@@ -83,8 +84,8 @@ function Skills() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={12} lg={12}>
-                        <Box id="box" width={1} height="99%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
-                            <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px 0px 0px 25px'}}>
+                        <Box id="box" width={1} height="99%" style={{backgroundColor: "rgba(0, 31, 84, 0.2)", borderRadius: '25px'}}>
+                            <Box width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '25px 0px 0px 25px'}}>
                                 <p style={{textAlign: 'center', lineHeight:'100px'}} className="type">Back-end</p>
                             </Box>
                             <Box width="18%" height="100%">
@@ -98,14 +99,19 @@ function Skills() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={12} lg={12}>
-                        <Box id="box" width={1} height="99%" style={{backgroundColor: "#003459", borderRadius: '25px'}}>
-                            <Box width="18%" height="100%" style={{backgroundColor: "#ce4257", borderRadius: '25px 0px 0px 25px'}}>
+                        <Box id="box" width={1} height="99%" style={{backgroundColor: "rgba(0, 31, 84, 0.2)", borderRadius: '25px'}}>
+                            <Box width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '25px 0px 0px 25px'}}>
                                 <p style={{textAlign: 'center', lineHeight:'100px'}} className="type">Others</p>
                             </Box>
                             <Box width="18%" height="100%">
                                 <div id="logos">
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={git}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>Git</p></p>
+                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={git}/>
+                                        <p style={{fontSize: '0.6em', color: '#ffffff'}}>Git</p>
+                                    </p>
                                     <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={adobe}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>AdobeXD</p></p>
+                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={heroku}/>
+                                        <p style={{fontSize: '0.6em', color: '#ffffff'}}>Heroku</p>
+                                    </p>
                                 </div>
                             </Box>
                         </Box>

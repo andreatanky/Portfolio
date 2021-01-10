@@ -1,11 +1,11 @@
 #about {
-    padding-top: 110px;
+    padding-top: 150px;
 }
 
 #wrapper {
     justify-content: center;
     display: flex;
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 #buttonContainer {
@@ -19,7 +19,6 @@
     background: rgba(255, 255, 255, 0.2);
     padding-bottom: 4rem;
     border-radius: 5%;
-    margin: auto;
     padding-top: 0.1rem;
 }
 
@@ -29,8 +28,8 @@
     margin-left: auto;
     height: 2.5rem;
     padding: 1.5rem;
-    font-weight: bold;
     font-family: 'Poppins', sans-serif;
+    font-size: 15px;
 }
 
 #button2 {
@@ -38,9 +37,9 @@
     height: 2.5rem;
     padding: 1.5rem;
     margin: 25px auto 10px;
-    font-weight: bold;
     font-family: 'Poppins', sans-serif;
     color: white;
+    font-size: 15px;
 }
 
 #aboutTitle {
@@ -58,9 +57,8 @@
 }
 
 #description {
+    vertical-align: top;
+    flex: auto;
     text-align: left;
-    padding-right: 4em;
-    padding-left: 4em;
-    margin: auto;
     border: none;
 }

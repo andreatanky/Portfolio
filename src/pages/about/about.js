@@ -8,7 +8,7 @@ import Button from "@material-ui/core/Button";
 function About() {
     return (
         <div id="about">
-            <Grid className="wrapContainer" container spacing={2}>
+            <Grid className="wrapContainer" container spacing={9}>
                 <Grid id="leftWrapper" item xs={12} sm={12} lg={6}>
                     <div>
                         <Container id="wrapper">

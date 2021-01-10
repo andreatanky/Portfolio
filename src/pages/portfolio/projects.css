@@ -17,6 +17,12 @@ text-align: center;
  color: white;
 }
 
+#techStackWrapper {
+
+ flex-wrap: wrap;
+ text-align: left;
+}
+
 
 #buttonsWrapper {
  justify-content: center;
@@ -25,5 +31,4 @@ text-align: center;
 #wrapperDescription {
  display: flex;
  font-size: 1em;
- height: 170px;
 }

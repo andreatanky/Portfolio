@@ -4,7 +4,7 @@ import './projects.css';
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import {CardMedia, colors, Container, withStyles} from "@material-ui/core";
+import {CardMedia, Chip, colors, Container, withStyles} from "@material-ui/core";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
@@ -15,6 +15,7 @@ import { ProjectItems } from './projectItems';
 import {FaExternalLinkSquareAlt, FaGithub} from 'react-icons/fa';
 import { FaReadme } from 'react-icons/fa';
 import styles from '../../styles/ProjectStyles';
+import DoneIcon from '@material-ui/icons/Done';
 
 
 class Projects extends Component {
@@ -38,6 +39,10 @@ class Projects extends Component {
                                         color="textSecondary" component="p">
                                 {project.description}
                             </Typography>
+                            <CardActions id="techStackWrapper">
+                                <h5>Tech Stack:</h5>
+                                {project.techStack.map(t => <Chip style={{backgroundColor: '#55CBC6'}} size="small" label={t}/>)}
+                            </CardActions>
                         </CardContent>
                     </CardActionArea>
                     <CardActions id="buttonsWrapper">

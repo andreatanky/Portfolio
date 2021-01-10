@@ -115,7 +115,6 @@ export const ProjectItems = [
             "HTML",
             "CSS",
             "Bootstrap",
-            "ejs",
             "MongoDB",
             "passport",
         ]
@@ -161,7 +160,6 @@ export const ProjectItems = [
         },
         techStack: [
             "ReactJS",
-            "Material-UI",
             "JSS"
         ]
     }
