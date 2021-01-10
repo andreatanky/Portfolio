@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './contact.css';
 import Triangle from "./triangle";
 import {Container} from "@material-ui/core";
+import EmailIcon from '@material-ui/icons/Email';
+import TelegramIcon from '@material-ui/icons/Telegram';
 
 class Contact extends Component {
     render() {
@@ -14,7 +16,14 @@ class Contact extends Component {
                         Have a question for me?
                     </p>
                     <Container className="containerContact">
-                        <p>PLEASE EMAIL ME AND HIRE ME!!!</p>
+                        <div id="email">
+                            <EmailIcon id="emailIcon" style={{backgroundColor: "#ff0054", padding: "15px"}}/>
+                            <p>Email me at andreaxtan611@gmail.com</p>
+                        </div>
+                        <div id="telegram">
+                            <TelegramIcon id="telegramIcon" style={{backgroundColor: "#ff0054", padding: "15px"}}/>
+                            <p>Send me a message on telegram at @andreatanky</p>
+                        </div>
                     </Container>
                 </div>
             </div>

@@ -12,5 +12,17 @@
 }
 
 #tag {
-    color: #ff0054;
+    color: #ff006e;
+}
+
+#emailIcon, #telegramIcon {
+    margin-right: 14px
+}
+
+#email, #telegram {
+    text-align: center;
+    display:flex;
+    flex-direction:row;
+    margin: 30px;
+    font-size: 1rem;
 }
