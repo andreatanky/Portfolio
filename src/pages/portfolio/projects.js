@@ -16,41 +16,11 @@ import {FaExternalLinkSquareAlt, FaGithub} from 'react-icons/fa';
 import { FaReadme } from 'react-icons/fa';
 import styles from '../../styles/ProjectStyles';
 
-//
-//
-// const useStyles = makeStyles((theme) => ({
-//     root: {
-//         flexGrow: 1,
-//         minWidth: 275,
-//     },
-//     contain: {
-//         padding: theme.spacing(5),
-//     },
-//     grids: {
-//         display: 'flex'
-//     },
-//     bullet: {
-//         display: 'inline-block',
-//         margin: '0 2px',
-//         transform: 'scale(0.8)',
-//     },
-//     title: {
-//         fontSize: 14,
-//     },
-//     pos: {
-//         marginBottom: 12,
-//     },
-//     media: {
-//         height: 320,
-//     }
-// }));
-
-
 
 class Projects extends Component {
     displayCard(classes) {
         return ProjectItems.map(project => (
-            <Grid item xs={12} sm={6} lg={4}>
+            <Grid className="card" item xs={12} sm={6} lg={4}>
                 <Card style={{backgroundColor: "#ffff"}} variant="outlined">
                     <CardActionArea>
                         <CardMedia
@@ -64,16 +34,16 @@ class Projects extends Component {
                                 className="title" gutterBottom variant="h5" component="h2">
                                 {project.title}
                             </Typography>
-                            <Typography style={{color: "black", fontFamily: 'Poppins'}} variant="body2"
+                            <Typography id="wrapperDescription" style={{color: "black", fontFamily: 'Poppins', textAlign: 'left'}} variant="body2"
                                         color="textSecondary" component="p">
                                 {project.description}
                             </Typography>
                         </CardContent>
                     </CardActionArea>
-                    <CardActions>
+                    <CardActions id="buttonsWrapper">
                         {
                             Object.entries(project.url).map(u =>
-                                <Button variant="contained" size="small" color="secondary">
+                                <Button href={u[1].link} target="_blank" id="button" variant="contained" size="small" style={{backgroundColor: `${u[1].color}`}}>
                                     {u[0]}{u[1].icon}
                                 </Button>
                             )

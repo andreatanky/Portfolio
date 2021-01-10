@@ -1,23 +1,28 @@
-
 #portfolio {
   padding-top: 70px;
 }
   
-  h1 {
-    text-align: center;
-  }
+h1 {
+text-align: center;
+}
 
- .title {
-     color: #ff006e;
-     font-family: 'Poppins', sans-serif;
-     font-weight: bolder;
-     font-size: x-large;
-  }
+.title {
+ color: #ff006e;
+ font-family: 'Poppins', sans-serif;
+ font-weight: bolder;
+ font-size: x-large;
+}
 
- .description {
-     color: white;
- }
+.description {
+ color: white;
+}
 
- Button .documentation {
-     background-color: #4ecdc4;
- }
+
+#buttonsWrapper {
+ justify-content: center;
+}
+
+#wrapperDescription {
+ display: flex;
+ font-size: 1rem;
+}

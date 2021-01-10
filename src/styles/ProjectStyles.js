@@ -6,23 +6,8 @@ const styles = (theme) => ({
         boxSizing: "border-box",
         backgroundColor: "#F5F5F5"
     },
-    title: {
-        marginBottom: `${theme.mixins.toolbar.minHeight}px`,
-        marginTop: `${theme.mixins.toolbar.minHeight * 0.5}px`,
-    },
-    rootGrid: {
-
-    },
-    cardDiv: {
-
-    },
-    card: {
-
-    },
     cardMedia: {
         height: 350,
-    },
-    cardContent: {
     },
     cardActions: {
         justifyContent: "center",
