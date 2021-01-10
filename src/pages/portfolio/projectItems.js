@@ -8,45 +8,97 @@ import customsnooze from '../../assets/proj_imgs/customsnooze.png';
 
 export const ProjectItems = [
     {
-        imageUrl: socunite,
         title: 'SoCUnite',
-        description: 'A flutter application',
-        githubUrl: '/',
-        documentationUrl: '/'
+        imageUrl: socunite,
+        description: 'A cross-platform mobile application developed to provide a platform for NUS Computing students to interact and connect with one another to engage in peer-to-peer learning and gain insights on academics, internships, external programmes as well as partake in socialising activities.',
+        url: {
+            github: "/",
+            documentation: "/",
+            demo: "/"
+        },
+        techStack: [
+            "Flutter",
+            "Dart",
+            "Firebase"
+        ]
     },
     {
-        imageUrl: ip_poster,
         title: 'DukeBot',
+        imageUrl: ip_poster,
         description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when ',
-        githubUrl: '/',
-        documentationUrl: '/'
+        url: {
+            github: "/",
+            documentation: "/",
+            demo: "/"
+        },
+        techStack: [
+            "JavaFX",
+            "Gradle",
+            "GitHub pages"
+        ]
     },
     {
-        imageUrl: tp_poster,
         title: 'ProductiveNUS',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an ',
-        githubUrl: '',
-        documentationUrl: '/'
+        imageUrl: tp_poster,
+        description: 'A JavaFX desktop application developed to help students manage and schedule their academic tasks for a fuss-free academic timetable.',
+        url: {
+            github: "/",
+            documentation: "/",
+            demo: "/"
+        },
+        techStack: [
+            "JavaFX",
+            "Gradle",
+            "GitHub pages",
+        ]
     },
     {
-        imageUrl: fc_img,
         title: 'FoodieCritic',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an ',
-        githubUrl: '/',
-        documentationUrl: '/'
+        imageUrl: fc_img,
+        description: 'FoodieCritic is a full stack web application project that is built on MongoDB/Express/Node while utilising RESTful architecture. It performs CRUD operations for users. Users are able to upload images, food reviews, comment on other reviews and give ratings.',
+        url: {
+            github: "/",
+            documentation: "/",
+            demo: "/"
+        },
+        techStack: [
+            "NodeJS",
+            "Express",
+            "ejs",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "ejs",
+            "MongoDB",
+            "passport",
+        ]
+    },
+    {
+        title: 'CustomSnooze',
+        imageUrl: customsnooze,
+        description: 'An iOS and Android application that allows users to set alarms with customisable snooze intervals, built over a course of 24 hours during Hack&Roll 2021.',
+        url: {
+            github: "/",
+            documentation: "/",
+            demo: "/"
+        },
+        techStack: [
+            "Flutter",
+            "Dart"
+        ]
     },
     {
         imageUrl: portfolio,
         title: 'Personal Portfolio',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an ',
-        githubUrl: '/',
-        documentationUrl: '/'
-    },
-    {
-        imageUrl: customsnooze,
-        title: 'CustomSnooze',
-        description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an ',
-        githubUrl: '/',
-        documentationUrl: '/'
+        description: 'This portfolio is developed with React',
+        url: {
+            github: "/",
+            documentation: "/",
+            demo: "/"
+        },
+        techStack: [
+            "ReactJS",
+            "Material-UI",
+        ]
     }
 ]
