@@ -15,11 +15,11 @@ function About() {
                             <Avatar style={{ height: '310px', width: '310px', textAlign: 'center' }} id="andrea" src={andrea} />
                         </Container>
                         <Container id="buttonContainer">
-                            <Button id="button1" variant="contained" color="secondary">
-                                View my Github
+                            <Button href="https://github.com/andreatanky" target="_blank" id="button1" variant="contained" color="secondary">
+                                View Github
                             </Button>
-                            <Button id="button2" variant="contained" style={{backgroundColor:'#2ec4b6'}}>
-                                View my Resume
+                            <Button id="button2" variant="contained" style={{backgroundColor:'#87bba2'}}>
+                                Download Resume
                             </Button>
                         </Container>
                     </div>
