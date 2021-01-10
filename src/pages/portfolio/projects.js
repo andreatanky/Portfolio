@@ -71,7 +71,7 @@ function Projects() {
             <div id="portfolio">
                 <Container className={classes.contain}>
                     <div className={classes.root}>
-                        <h1>Projects</h1>
+                        <h1>Portfolio</h1>
                         <Grid className="classes.grids" container spacing = {3}>
                             <Grid item xs={12} sm={6} lg={4}>
                                 {/*insert card here*/}

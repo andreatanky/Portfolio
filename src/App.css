@@ -53,14 +53,6 @@ img {
   #003554 100%);
   height: 100vh;
 }
-#welcome {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-}
 
 .outerContainer {
   padding-left: 35px;

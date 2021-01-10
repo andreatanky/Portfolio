@@ -1,5 +1,5 @@
 #about {
-    padding-top: 100px;
+    padding-top: 110px;
 }
 
 #wrapper {
@@ -15,10 +15,23 @@
     padding-top: 40px;
 }
 
+#leftWrapper {
+    background: rgba(212, 101, 134, 0.3);
+    padding-bottom: 4rem;
+    border-radius: 5%;
+    margin: auto;
+}
+
 #button1, #button2 {
-    width: 200px;
-    margin: 0 auto;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
     height: 2.5rem;
+    padding: 1.5rem;
+}
+
+#button2 {
+    margin-top: 20px;
 }
 
 #aboutTitle {
@@ -31,13 +44,14 @@
 }
 
 .wrapContainer {
-    padding-left:200px;
-    padding-right: 200px;
+    padding-left:100px;
+    padding-right: 100px;
 }
 
 #description {
     text-align: left;
-    max-width: 500px;
+    padding-right: 4em;
+    padding-left: 4em;
     margin: auto;
     border: none;
 }
