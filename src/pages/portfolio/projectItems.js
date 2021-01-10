@@ -20,7 +20,7 @@ export const ProjectItems = [
                 icon: <FaGithub style={{paddingLeft: '0.3em'}}/>,
                 color: '#dd2d4a'
             },
-            documentation: {
+            docs: {
                 link: "https://docs.google.com/document/d/1jAgxYVlMcL5FW06Aokyvx-8HIjmObehRPW9WAnyuZ9c/edit?usp=sharing",
                 icon: <FaReadme style={{paddingLeft: '0.3em'}}/>,
                 color: '#ffa69e'
@@ -29,7 +29,7 @@ export const ProjectItems = [
             demo: {
                 link: "/",
                 icon: <FaExternalLinkSquareAlt style={{paddingLeft: '0.3em'}}/>,
-                color: '#a5ffd6'
+                color: '#77A0B9'
             }
         },
         techStack: [
@@ -48,7 +48,7 @@ export const ProjectItems = [
                 icon: <FaGithub style={{paddingLeft: '0.3em'}}/>,
                 color: '#dd2d4a'
             },
-            documentation: {
+            docs: {
                 link: "https://andreatanky.github.io/ip/",
                 icon: <FaReadme style={{paddingLeft: '0.3em'}}/>,
                 color: '#ffa69e'
@@ -56,7 +56,7 @@ export const ProjectItems = [
             demo: {
                 link: "https://github.com/andreatanky/ip/releases/download/v0.3/duke.jar",
                 icon: <FaExternalLinkSquareAlt style={{paddingLeft: '0.3em'}}/>,
-                color: '#a5ffd6'
+                color: '#77A0B9'
             }
         },
         techStack: [
@@ -75,7 +75,7 @@ export const ProjectItems = [
                 icon: <FaGithub style={{paddingLeft: '0.3em'}}/>,
                 color: '#dd2d4a'
             },
-            documentation: {
+            docs: {
                 link: "https://ay2021s1-cs2103t-f11-3.github.io/tp/DeveloperGuide.html",
                 icon: <FaReadme style={{paddingLeft: '0.3em'}}/>,
                 color: '#ffa69e'
@@ -83,7 +83,7 @@ export const ProjectItems = [
             demo: {
                 link: "https://github.com/AY2021S1-CS2103T-F11-3/tp/releases/download/v1.4/CS2103T-F11-3.ProductiveNUS.jar",
                 icon: <FaExternalLinkSquareAlt style={{paddingLeft: '0.3em'}}/>,
-                color: '#a5ffd6'
+                color: '#77A0B9'
             }
         },
         techStack: [
@@ -105,7 +105,7 @@ export const ProjectItems = [
             demo: {
                 link: "https://foodiecritic.herokuapp.com",
                 icon: <FaExternalLinkSquareAlt style={{paddingLeft: '0.3em'}}/>,
-                color: '#a5ffd6'
+                color: '#77A0B9'
             }
         },
         techStack: [
@@ -134,7 +134,7 @@ export const ProjectItems = [
             demo: {
                 link: "/",
                 icon: <FaExternalLinkSquareAlt style={{paddingLeft: '0.3em'}}/>,
-                color: '#a5ffd6'
+                color: '#77A0B9'
             }
         },
         techStack: [
@@ -156,7 +156,7 @@ export const ProjectItems = [
             demo: {
                 link: "/",
                 icon: <FaExternalLinkSquareAlt style={{paddingLeft: '0.3em'}}/>,
-                color: '#a5ffd6'
+                color: '#77A0B9'
             }
         },
         techStack: [

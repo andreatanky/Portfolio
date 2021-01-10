@@ -24,5 +24,6 @@ text-align: center;
 
 #wrapperDescription {
  display: flex;
- font-size: 1rem;
+ font-size: 1em;
+ height: 170px;
 }

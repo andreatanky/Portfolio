@@ -21,7 +21,7 @@ class Projects extends Component {
     displayCard(classes) {
         return ProjectItems.map(project => (
             <Grid className="card" item xs={12} sm={6} lg={4}>
-                <Card style={{backgroundColor: "#ffff"}} variant="outlined">
+                <Card className={classes.fullHeightCard} style={{backgroundColor: "#ffff"}} variant="outlined">
                     <CardActionArea>
                         <CardMedia
                             className={classes.cardMedia}

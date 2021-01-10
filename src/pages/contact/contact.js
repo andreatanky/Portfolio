@@ -10,8 +10,8 @@ class Contact extends Component {
                 <Triangle/>
                 <div id="contact">
                     <h1>Contact</h1>
-                    <p>
-                        Have a question or would like to email me?
+                    <p id="tag">
+                        Have a question for me?
                     </p>
                     <Container className="containerContact">
                         <p>PLEASE EMAIL ME AND HIRE ME!!!</p>

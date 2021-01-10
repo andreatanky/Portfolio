@@ -20,7 +20,10 @@ const styles = (theme) => ({
     },
     button: {
         marginBottom: "3px"
-    }
+    },
+    fullHeightCard: {
+        height: "100%",
+    },
 });
 
 export default styles;

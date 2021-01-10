@@ -18,7 +18,7 @@ function About() {
                             <Button href="https://github.com/andreatanky" target="_blank" id="button1" variant="contained" color="secondary">
                                 View Github
                             </Button>
-                            <Button id="button2" variant="contained" style={{backgroundColor:'#87bba2'}}>
+                            <Button id="button2" variant="contained" style={{backgroundColor:'#77A0B9'}}>
                                 Download Resume
                             </Button>
                         </Container>
