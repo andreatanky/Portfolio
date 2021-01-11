@@ -4,7 +4,8 @@
 }
 
 .containerContact {
-    height: 300px;
+    padding-top: 30px;
+    height: 350px;
 }
 
 #contact {
@@ -13,7 +14,7 @@
 
 #tag {
     color: #ff006e;
-    font-size: 22px;
+    font-size: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
