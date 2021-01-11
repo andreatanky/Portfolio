@@ -2,6 +2,7 @@ import React, { Component, useEffect, useState } from 'react'
 import './navbar.css';
 import { MenuItems } from './menuItems';
 import { HashLink } from 'react-router-hash-link';
+import Button from './button';
 
 function Navbar() {
     const [navbar, setNavbar] = useState(false);
@@ -20,13 +21,13 @@ function Navbar() {
 
     return (
         <nav className={navbar ? 'navbar-active' : 'navbar'}>
-             <div className="logo">
+             <div className="navbar-logo">
                 <h1><HashLink className="username" smooth to="#">andreatanky</HashLink></h1>
             </div>
             <div className="menu-icon" onClick={() => handleClick(!clicked)}>
                 <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
             </div>
-            <ul className='nav-menu'>
+            <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
                 {MenuItems.map((item, index) => {
                     return (
                         <li><HashLink className="nav-links" smooth to={item.url}>{item.title}</HashLink></li>
