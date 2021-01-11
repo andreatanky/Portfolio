@@ -5,8 +5,10 @@ import { HashLink } from 'react-router-hash-link';
 
 function Navbar() {
     const [navbar, setNavbar] = useState(false);
+    const [clicked, handleClick] = useState(false);
 
-    const chnageBackground = () => {
+
+    const changeBackground = () => {
         if (window.scrollY >= 60) {
             setNavbar(true);
         } else {
@@ -14,24 +16,22 @@ function Navbar() {
         }
     }
 
-    window.addEventListener('scroll', chnageBackground);
+    window.addEventListener('scroll', changeBackground);
 
     return (
         <nav className={navbar ? 'navbar-active' : 'navbar'}>
              <div className="logo">
                 <h1><HashLink className="username" smooth to="#">andreatanky</HashLink></h1>
             </div>
+            <div className="menu-icon" onClick={() => handleClick(!clicked)}>
+                <i className={clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+            </div>
             <ul className='nav-menu'>
-                <li><HashLink className="nav-links" smooth to="#portfolio">Portfolio</HashLink></li>
-                <li><HashLink className="nav-links" smooth to="#skills">Skills</HashLink></li>
-                <li><HashLink className="nav-links" smooth to="#experience">Experience</HashLink></li>
-                <li><HashLink className="nav-links" smooth to="#about">About</HashLink></li>
-                <li><HashLink className="nav-links" smooth to="#contact">Contact</HashLink></li>
-            {/* {MenuItems.map((item, index) => {
-                return (
-                    <li><a className={item.cName} href={item.url}>{item.title}</a></li>
-                )
-            })} */}
+                {MenuItems.map((item, index) => {
+                    return (
+                        <li><HashLink className="nav-links" smooth to={item.url}>{item.title}</HashLink></li>
+                    )
+                })}
             </ul>
         </nav>
     )
