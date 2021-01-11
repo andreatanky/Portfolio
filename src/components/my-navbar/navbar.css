@@ -1,59 +1,94 @@
-.navbar {
-    z-index: 1001;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height: 80px;
-    background: transparent;
-    font-size: 1.2rem;
-    font-family: 'Poppins', sans-serif;
-    min-width: 1000px;
-}
+/*.navbar {*/
+/*    z-index: 1001;*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: flex-start;*/
+/*    height: 80px;*/
+/*    background: transparent;*/
+/*    font-size: 1.2rem;*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    min-width: 1000px;*/
+/*}*/
 
-.username {
-    z-index : 1001;
-    color: #ff006e;
+.NavBarItems {
+    background: #011627;
+    height: 80px;
+    display: flex;
     justify-content: start;
-    margin-left: 2rem;
-    cursor: pointer;
-    padding-left: 80px;
-    border: none;
-    text-decoration: none;
-}
-
-.username:hover {
-    color: #84a59d;
-}
-
-.navbar-active {
-    z-index: 1001;
-    transition: all 0.5s;
-    position: fixed;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    height: 80px;
-    background:#011627;
     font-size: 1.2rem;
-    font-family: 'Poppins', sans-serif;
-    min-width: 1000px;
+    align-items: center;
 }
 
+.navbar-logo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+}
 
 .nav-menu {
-    z-index : 1001;
-    list-style: none;
     display: grid;
     grid-template-columns: repeat(5, auto);
-    grid-gap: 20px;
+    grid-gap: 10px;
+    list-style: none;
     text-align: center;
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
 }
+
+.fa-bars {
+    color: #ffffff;
+}
+
+.menu-icon {
+    display: none;
+}
+
+/*.username {*/
+/*    z-index : 1001;*/
+/*    color: #ff006e;*/
+/*    justify-content: start;*/
+/*    margin-left: 2rem;*/
+/*    cursor: pointer;*/
+/*    padding-left: 80px;*/
+/*    border: none;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.username:hover {*/
+/*    color: #84a59d;*/
+/*}*/
+
+/*.navbar-active {*/
+/*    z-index: 1001;*/
+/*    transition: all 0.5s;*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: flex-start;*/
+/*    height: 80px;*/
+/*    background:#011627;*/
+/*    font-size: 1.2rem;*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*    min-width: 1000px;*/
+/*}*/
+
+
+/*.nav-menu {*/
+/*    z-index : 1001;*/
+/*    list-style: none;*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(5, auto);*/
+/*    grid-gap: 20px;*/
+/*    text-align: center;*/
+/*    width: 70vw;*/
+/*    justify-content: end;*/
+/*    margin-right: 2rem;*/
+/*}*/
 
 .nav-links {
     z-index : 1001;
