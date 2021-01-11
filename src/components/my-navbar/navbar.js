@@ -27,11 +27,6 @@ function Navbar() {
                 <li><HashLink className="nav-links" smooth to="#experience">Experience</HashLink></li>
                 <li><HashLink className="nav-links" smooth to="#about">About</HashLink></li>
                 <li><HashLink className="nav-links" smooth to="#contact">Contact</HashLink></li>
-            {/* {MenuItems.map((item, index) => {
-                return (
-                    <li><a className={item.cName} href={item.url}>{item.title}</a></li>
-                )
-            })} */}
             </ul>
         </nav>
     )
