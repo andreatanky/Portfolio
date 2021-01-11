@@ -52,8 +52,8 @@ function Skills() {
                 <h1 >Skills</h1>
                 <Grid className="area" container spacing={1}>
                     <Grid item xs={12} sm={12} lg={12}>
-                        <Box id="box" width={1} height="99%" style={{backgroundColor: "rgba(0, 31, 84, 0.2)", borderRadius: '25px'}}>
-                            <Box width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '25px 0px 0px 25px'}}>
+                        <Box id="box" width={1} height="99%" style={{backgroundColor: "rgba(0, 31, 84, 0.2)", borderRadius: '15px'}}>
+                            <Box width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '15px 0px 0px 15px'}}>
                                 <p style={{textAlign: 'center', lineHeight:'100px'}} className="type">Languages</p>
                             </Box>
                             <Box width="18%" height="100%">
@@ -68,8 +68,8 @@ function Skills() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={12} lg={12}>
-                        <Box id="box" width={1} height="99%" style={{backgroundColor: "rgba(0, 31, 84, 0.2)", borderRadius: '25px'}}>
-                            <Box width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '25px 0px 0px 25px'}}>
+                        <Box id="box" width={1} height="99%" style={{backgroundColor: "rgba(0, 31, 84, 0.2)", borderRadius: '15px'}}>
+                            <Box width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '15px 0px 0px 15px'}}>
                                 <p style={{textAlign: 'center', lineHeight:'100px'}} className="type">Front-end</p>
                             </Box>
                             <Box width="18%" height="100%">
@@ -84,8 +84,8 @@ function Skills() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={12} lg={12}>
-                        <Box id="box" width={1} height="99%" style={{backgroundColor: "rgba(0, 31, 84, 0.2)", borderRadius: '25px'}}>
-                            <Box width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '25px 0px 0px 25px'}}>
+                        <Box id="box" width={1} height="99%" style={{backgroundColor: "rgba(0, 31, 84, 0.2)", borderRadius: '15px'}}>
+                            <Box width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '15px 0px 0px 15px'}}>
                                 <p style={{textAlign: 'center', lineHeight:'100px'}} className="type">Back-end</p>
                             </Box>
                             <Box width="18%" height="100%">
@@ -99,8 +99,8 @@ function Skills() {
                         </Box>
                     </Grid>
                     <Grid item xs={12} sm={12} lg={12}>
-                        <Box id="box" width={1} height="99%" style={{backgroundColor: "rgba(0, 31, 84, 0.2)", borderRadius: '25px'}}>
-                            <Box width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '25px 0px 0px 25px'}}>
+                        <Box id="box" width={1} height="99%" style={{backgroundColor: "rgba(0, 31, 84, 0.2)", borderRadius: '15px'}}>
+                            <Box width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '15px 0px 0px 15px'}}>
                                 <p style={{textAlign: 'center', lineHeight:'100px'}} className="type">Others</p>
                             </Box>
                             <Box width="18%" height="100%">
