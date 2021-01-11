@@ -7,6 +7,10 @@ h1 {
 text-align: center;
 }
 
+#techStack {
+ color: black;
+}
+
 .title {
  color: #ff006e;
  font-family: 'Poppins', sans-serif;

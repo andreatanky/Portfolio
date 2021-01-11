@@ -40,7 +40,7 @@ class Projects extends Component {
                                 {project.description}
                             </Typography>
                             <CardActions id="techStackWrapper">
-                                <h5>Tech Stack:</h5>
+                                <h5 id="techStack">Tech Stack:</h5>
                                 {project.techStack.map(t => <Chip style={{backgroundColor: '#55CBC6'}} size="small" label={t}/>)}
                             </CardActions>
                         </CardContent>

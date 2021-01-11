@@ -9,11 +9,13 @@ import WorkIcon from '@material-ui/icons/Work';
 function Experience() {
 
     let schoolIconStyles = {
-        background: "#E5767B"
+        background: "#E5767B",
+        color: "white"
     }
 
     let internshipIconStyles = {
-        background: "#83c5be"
+        background: "#83c5be",
+        color: "white"
     }
 
     return (
@@ -25,6 +27,7 @@ function Experience() {
                         let isSchoolIcon = e.icon === "school";
                         return (
                             <VerticalTimelineElement
+                                className="vertical-timeline-element"
                                 contentArrowStyle={{ borderLeft: isSchoolIcon ? '7px solid #E5767B' : '7px solid #83c5be'}}
                                 contentStyle={{ background: isSchoolIcon ? '#E5767B' : '#83c5be'}}
                                 date={e.date}
