@@ -58,11 +58,11 @@ function Skills() {
                             </Box>
                             <Box width="18%" height="100%">
                                 <div id="logos">
-                                    <p id="para1"><Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={python}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>Python</p></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={js}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>JavaScript</p></p>
+                                    <p id="para1"><Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={python}/><p style={{fontSize: '0.6em', color: '#ffffff', textAlign: 'center'}}>Python</p></p>
+                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={js}/><p style={{fontSize: '0.6em', color: '#ffffff', textAlign: 'center'}}>JavaScript</p></p>
                                     <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={java}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>Java</p></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={c}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>C</p></p>
-                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={dart}/><p style={{fontSize: '0.6em', color: '#ffffff'}}>Dart</p></p>
+                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={c}/><p style={{fontSize: '0.6em', color: '#ffffff', textAlign: 'center'}}>C</p></p>
+                                    <p id="para"> <Avatar style={{ height: '45px', width: '45px', textAlign: 'center' }} variant="square" src={dart}/><p style={{fontSize: '0.6em', color: '#ffffff', textAlign: 'center'}}>Dart</p></p>
                                 </div>
                             </Box>
                         </Box>
