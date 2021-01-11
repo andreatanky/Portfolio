@@ -20,7 +20,7 @@ let timelineElements = [
         title: "I am currently looking for an internship! :(",
         subtitle: "",
         description: "If you would like to offer me an interview, please view the contact me page. Thank you!",
-        date: "Jan 2021 - present",
+        date: "Actively searching for internships",
         icon: "internship"
     }
 ];
