@@ -1,6 +1,14 @@
 #portfolio {
-  padding-top: 70px;
+ padding-top: 70px;
  padding-bottom: 80px;
+}
+
+#cardContent {
+ height: 260px;
+}
+
+#chip {
+ font-size: 1vw;
 }
   
 h1 {
@@ -23,7 +31,6 @@ text-align: center;
 }
 
 #techStackWrapper {
-
  flex-wrap: wrap;
  text-align: left;
 }

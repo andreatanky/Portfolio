@@ -95,7 +95,7 @@ export const ProjectItems = [
     {
         title: 'FoodieCritic',
         imageUrl: fc_img,
-        description: 'FoodieCritic is a full stack web application project that is built on MongoDB/Express/Node while utilising RESTful architecture. It performs CRUD operations for users. Users are able to upload images, food reviews, comment on other reviews and give ratings.',
+        description: 'A full stack web application project that utilises RESTful architecture. It performs CRUD operations for users. Users are able to upload images, food reviews, comment on other reviews and give ratings.',
         url: {
             github: {
                 link: "https://github.com/andreatanky/FoodieCritic",

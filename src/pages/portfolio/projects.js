@@ -21,15 +21,15 @@ import DoneIcon from '@material-ui/icons/Done';
 class Projects extends Component {
     displayCard(classes) {
         return ProjectItems.map(project => (
-            <Grid className="card" item xs={12} sm={6} lg={4}>
-                <Card className={classes.fullHeightCard} style={{backgroundColor: "#ffff"}} variant="outlined">
+            <Grid item xs={12} sm={6} lg={4}>
+                <Card className="card" style={{backgroundColor: "#ffff", borderRadius: '2%'}} variant="outlined">
                     <CardActionArea>
                         <CardMedia
                             className={classes.cardMedia}
                             image={project.imageUrl}
                             title={project.title}
                         />
-                        <CardContent>
+                        <CardContent id="cardContent">
                             <Typography
                                 style={{color: "#ff006e", fontFamily: 'Poppins', fontWeight: 'bold'}}
                                 className="title" gutterBottom variant="h5" component="h2">
@@ -41,14 +41,14 @@ class Projects extends Component {
                             </Typography>
                             <CardActions id="techStackWrapper">
                                 <h5 id="techStack">Tech Stack:</h5>
-                                {project.techStack.map(t => <Chip style={{backgroundColor: '#55CBC6'}} size="small" label={t}/>)}
+                                {project.techStack.map(t => <Chip id="chip" style={{backgroundColor: '#55CBC6'}} size="small" label={t}/>)}
                             </CardActions>
                         </CardContent>
                     </CardActionArea>
                     <CardActions id="buttonsWrapper">
                         {
                             Object.entries(project.url).map(u =>
-                                <Button href={u[1].link} target="_blank" id="button" variant="contained" size="small" style={{backgroundColor: `${u[1].color}`}}>
+                                <Button id="button" href={u[1].link} target="_blank" id="button" variant="contained" size="small" style={{backgroundColor: `${u[1].color}`}}>
                                     {u[0]}{u[1].icon}
                                 </Button>
                             )
