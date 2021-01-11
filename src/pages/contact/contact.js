@@ -18,11 +18,11 @@ class Contact extends Component {
                     <Container className="containerContact">
                         <div id="email">
                             <EmailIcon id="emailIcon" style={{backgroundColor: "#ff0054", padding: "15px"}}/>
-                            <p>Email me at andreaxtan611@gmail.com</p>
+                            <p>Email me at <span>andreaxtan611@gmail.com</span></p>
                         </div>
                         <div id="telegram">
                             <TelegramIcon id="telegramIcon" style={{backgroundColor: "#ff0054", padding: "15px"}}/>
-                            <p>Send me a message on telegram at @andreatanky</p>
+                            <p>Send me a message on telegram at <span>@andreatanky</span></p>
                         </div>
                     </Container>
                 </div>

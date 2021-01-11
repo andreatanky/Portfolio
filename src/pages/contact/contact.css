@@ -3,12 +3,17 @@
     color: white;
 }
 
+.containerContact {
+    height: 300px;
+}
+
 #contact {
     padding-top: 30px;
 }
 
-.containerContact {
-    height: 300px;
+p span {
+    text-decoration: underline;
+    text-decoration-color: #ff006e;
 }
 
 #tag {
@@ -19,10 +24,16 @@
     margin-right: 14px
 }
 
+
 #email, #telegram {
+    justify-content: center;
+    align-items: center;
     text-align: center;
     display:flex;
-    flex-direction:row;
     margin: 30px;
     font-size: 1rem;
+}
+
+#telegram {
+    transform: translate(4.1%, 0%);
 }
