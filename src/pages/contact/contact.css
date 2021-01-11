@@ -11,14 +11,19 @@
     padding-top: 30px;
 }
 
-p span {
-    text-decoration: underline;
-    text-decoration-color: #ff006e;
-}
-
 #tag {
     color: #ff006e;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display:flex;
 }
+
+p span {
+    color: #61a5c2;
+}
+
 
 #emailIcon, #telegramIcon {
     margin-right: 14px
