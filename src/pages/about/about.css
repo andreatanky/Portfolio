@@ -9,6 +9,25 @@
     padding-top: 90px;
 }
 
+#andrea {
+    height: 310px;
+    width: 310px;
+    text-align: center;
+}
+
+@media screen and (max-width: 375px) {
+    #andrea {
+        height: 220px;
+        width: 220px;
+        text-align: center;
+    }
+
+    #leftWrapper {
+        padding-bottom: 4rem;
+        padding-top: 0.1rem;
+    }
+}
+
 #buttonContainer {
     display: flex;
     justify-content: center;
@@ -18,7 +37,7 @@
 
 #leftWrapper {
     background: rgba(255, 255, 255, 0.2);
-    padding-bottom: 4rem;
+    padding-bottom: 6rem;
     border-radius: 5%;
     padding-top: 0.1rem;
 }

@@ -12,7 +12,7 @@ function About() {
                 <Grid id="leftWrapper" item xs={12} sm={12} lg={6}>
                     <div>
                         <Container id="wrapper">
-                            <Avatar style={{ height: '310px', width: '310px', textAlign: 'center' }} id="andrea" src={andrea} />
+                            <Avatar id="andrea" src={andrea} />
                         </Container>
                         <Container id="buttonContainer">
                             <Button href="https://github.com/andreatanky" target="_blank" id="button1" variant="contained" color="secondary">
