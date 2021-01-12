@@ -10,7 +10,7 @@ class Landing extends Component {
         return (
             <div>
                 <div className="landingText">
-                    <h1>Hello, I'm <span> Andrea Tan</span>.<br/> I'm a year 2 Computer Science student.</h1>
+                    <h1>Hello, I'm <span> Andrea</span>.<br/> I'm a Computer Science student.</h1>
                     <Button variant="contained" size="small">
                         <HashLink className="nav-link" smooth to="#portfolio">View my work</HashLink>
                     </Button>

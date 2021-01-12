@@ -25,11 +25,15 @@ export const ProjectItems = [
                 icon: <FaReadme style={{paddingLeft: '0.3em'}}/>,
                 color: '#ffa69e'
             } ,
-            //Have yet to add in demo link
             demo: {
-                link: "/",
+                link: "https://drive.google.com/drive/folders/1yiGmO2y4tHjdhv4pMVSRPm6AaSZQOdeJ?usp=sharing \n",
                 icon: <FaExternalLinkSquareAlt style={{paddingLeft: '0.3em'}}/>,
                 color: '#77A0B9'
+            },
+            cert: {
+                link: "https://drive.google.com/file/d/10VKx9aXGUuFk3tBYNSnWRDTLl-eW6vLG/view?usp=sharing",
+                icon: <FaReadme style={{paddingLeft: '0.3em'}}/>,
+                color: '#f56364'
             }
         },
         techStack: [
@@ -60,6 +64,7 @@ export const ProjectItems = [
             }
         },
         techStack: [
+            "Java",
             "JavaFX",
             "Gradle",
             "GitHub pages"
@@ -87,6 +92,7 @@ export const ProjectItems = [
             }
         },
         techStack: [
+            "Java",
             "JavaFX",
             "Gradle",
             "GitHub pages",
@@ -109,6 +115,7 @@ export const ProjectItems = [
             }
         },
         techStack: [
+            "JavaScript",
             "NodeJS",
             "Express",
             "ejs",
@@ -160,7 +167,9 @@ export const ProjectItems = [
         },
         techStack: [
             "ReactJS",
-            "JSS"
+            "JSS",
+            "HTML",
+            "CSS"
         ]
     }
 ]

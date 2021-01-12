@@ -13,7 +13,7 @@ class Contact extends Component {
                 <div id="contact">
                     <h1>Contact</h1>
                     <p id="tag">
-                        Have a question for me?
+                        Thank you for viewing my portfolio!
                     </p>
                     <Container className="containerContact">
                         <div id="email">
