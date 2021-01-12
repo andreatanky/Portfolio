@@ -9,6 +9,10 @@
     padding-right: 30px;
 }
 
+.titleBox {
+    width: fit-content;
+}
+
 .outerBox {
     display:flex;
     flex-direction:row;

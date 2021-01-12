@@ -22,6 +22,7 @@ import node from '../../assets/skills_imgs/nodejs.png';
 import git from '../../assets/skills_imgs/git.png';
 import adobe from '../../assets/skills_imgs/xd.png';
 import heroku from '../../assets/skills_imgs/hero.png'
+import {SkillItems} from './skillsItems';
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -37,12 +38,6 @@ const useStyles = makeStyles((theme) => ({
     },
 }));
 
-const WhiteTextTypography = withStyles({
-    root: {
-        color: "#FFFFFF",
-    }
-})(Typography);
-
 function Skills() {
     const classes = useStyles();
 
@@ -53,7 +48,7 @@ function Skills() {
                 <Grid className="area" container spacing={1}>
                     <Grid item xs={12} sm={12} lg={12}>
                         <Box id="box" width={1} height="99%" style={{backgroundColor: "rgba(255, 255, 255, 0.2)", borderRadius: '15px'}}>
-                            <Box width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '15px 0px 0px 15px'}}>
+                            <Box className="titleBox" width="18%" height="100%" style={{backgroundColor: "rgba(255, 0, 84, 0.9)", borderRadius: '15px 0px 0px 15px'}}>
                                 <p style={{textAlign: 'center', lineHeight:'100px'}} className="type">Languages</p>
                             </Box>
                             <Box width="18%" height="100%">
