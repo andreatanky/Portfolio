@@ -74,9 +74,14 @@
         padding-bottom: 0;
     }
 
+    #skillsText {
+        transform: translate(-5%,0%);
+    }
+
     .area {
         background-color: #e43f6f;
         width: 100%;
+        transform: translate(-5%,0%);
     }
 
     #skillAvatar {

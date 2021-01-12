@@ -137,10 +137,10 @@ export const ProjectItems = [
                 color: '#dd2d4a'
             },
             //Yet to add demo link
-            demo: {
-                link: "/",
-                icon: <FaExternalLinkSquareAlt style={{paddingLeft: '0.3em'}}/>,
-                color: '#77A0B9'
+            slides: {
+                link: "https://www.canva.com/design/DAESsLSSGMY/SPiBLklkAkKkgdvv8K8o5Q/view?website#2:customsnooze",
+                icon: <FaReadme style={{paddingLeft: '0.3em'}}/>,
+                color: '#AB869F'
             }
         },
         techStack: [
@@ -158,12 +158,6 @@ export const ProjectItems = [
                 icon: <FaGithub style={{paddingLeft: '0.3em'}}/>,
                 color: '#dd2d4a'
             },
-            //Yet to add demo link
-            demo: {
-                link: "/",
-                icon: <FaExternalLinkSquareAlt style={{paddingLeft: '0.3em'}}/>,
-                color: '#77A0B9'
-            }
         },
         techStack: [
             "ReactJS",

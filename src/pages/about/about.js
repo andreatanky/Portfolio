@@ -31,7 +31,7 @@ function About() {
                     <div id="description">
                         <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
                             <h1 id="aboutTitle">About</h1>
-                        <p id="text">Hi there! My name is Andrea Tan and I am a year 2 Computer Science student at the National University of Singapore.<br/><br/> I enjoy learning and exploring the world of technology through working on projects individually or with my peers. I especially enjoy the element of designing and choosing out colour schemes for these projects, as well as the teamwork and fulfilment from completing the projects. Do check them out below! <br/><br/>Oh right, I enjoy singing and dancing apart from coding, too. :)
+                        <p id="text">Hi there! My name is Andrea Tan and I am a year 2 Computer Science student at the National University of Singapore.<br/><br/> I enjoy learning and exploring the world of technology through working on projects individually or with my peers. I especially enjoy the element of designing and choosing out colour schemes for these projects, as well as the teamwork and fulfilment from completing them. Do check them out below! <br/><br/>Oh right, I enjoy singing and dancing apart from coding, too. :)
                             <br/>
                             <br/>
                             <br/>
