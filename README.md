@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# My Personal Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Deployment
+
+Click [here]( https://andreatanky.herokuapp.com) to view the site.
 
 ## Available Scripts
 
