@@ -5,6 +5,10 @@ import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline
 import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
+import ScrollAnimation from 'react-animate-on-scroll';
+import {Container} from "@material-ui/core";
+import EmailIcon from "@material-ui/icons/Email";
+import TelegramIcon from "@material-ui/icons/Telegram";
 
 function Experience() {
 
@@ -20,7 +24,10 @@ function Experience() {
 
     return (
         <div id="experience">
-            <h1>Experience</h1>
+            <ScrollAnimation animateIn='bounceInLeft'
+                             animateOut='bounceOutRight'>
+                <h1>Experience</h1>
+            </ScrollAnimation>
             <VerticalTimeline layout="1-column-right">
                 {
                     timelineElements.map(e => {

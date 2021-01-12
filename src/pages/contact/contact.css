@@ -14,7 +14,7 @@
 
 #tag {
     color: #ff006e;
-    font-size: 20px;
+    font-size: 0.8rem;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -37,7 +37,7 @@ p span {
     text-align: center;
     display:flex;
     margin: 30px;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 #telegram {

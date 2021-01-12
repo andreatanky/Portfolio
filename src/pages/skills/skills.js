@@ -5,23 +5,7 @@ import './skills.css';
 import Typography from '@material-ui/core/Typography';
 import {Avatar, Container, withStyles} from "@material-ui/core";
 import Box from '@material-ui/core/Box';
-import python from '../../assets/skills_imgs/python.png';
-import js from '../../assets/skills_imgs/js.png';
-import java from '../../assets/skills_imgs/java.png';
-import c from '../../assets/skills_imgs/C.png';
-import dart from '../../assets/skills_imgs/dart.jpg';
-import html from '../../assets/skills_imgs/html.png';
-import css from '../../assets/skills_imgs/css.png';
-import mdb from '../../assets/skills_imgs/mdb.png';
-import react from '../../assets/skills_imgs/react.png';
-import flutter from '../../assets/skills_imgs/flutter.png';
-import fb from '../../assets/skills_imgs/fb.png';
-import bs from '../../assets/skills_imgs/bs.png';
-import express from '../../assets/skills_imgs/express.png';
-import node from '../../assets/skills_imgs/nodejs.png';
-import git from '../../assets/skills_imgs/git.png';
-import adobe from '../../assets/skills_imgs/xd.png';
-import heroku from '../../assets/skills_imgs/hero.png'
+import ScrollAnimation from 'react-animate-on-scroll';
 import {SkillItems} from './skillsItems';
 import styles from "../../styles/SkillStyles";
 
@@ -71,10 +55,15 @@ render() {
     return (
         <div className="container" id="skills">
             <div>
-                <h1>Skills</h1>
+                <ScrollAnimation animateIn='bounceInRight'
+                                 animateOut='bounceOutLeft'>
+                    <h1>Skills</h1>
+                </ScrollAnimation>
+                <ScrollAnimation animateIn='fadeIn'>
                 <Grid className="area" container spacing={1}>
                     {this.renderSkills()}
                 </Grid>
+                </ScrollAnimation>
             </div>
         </div>
     );

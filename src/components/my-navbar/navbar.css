@@ -51,9 +51,11 @@
     width: 70vw;
     justify-content: end;
     margin-right: 2rem;
+    padding-inline-start: 0;
 }
 
 .nav-links {
+    padding-inline-start: 0;
     z-index : 1001;
     color: #ff006e;
     text-decoration: none;
@@ -100,7 +102,7 @@
     }
 
     .nav-links {
-        text-align: left;
+        text-align: center;
         padding: 1rem;
         width: 100%;
         display: table;

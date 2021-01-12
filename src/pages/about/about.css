@@ -26,6 +26,10 @@
         padding-bottom: 4rem;
         padding-top: 0.1rem;
     }
+
+    #text {
+        font-size: 0.2rem;
+    }
 }
 
 #buttonContainer {
@@ -70,12 +74,12 @@
 
 #text {
     color: white;
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .wrapContainer {
-    padding-left:100px;
-    padding-right: 100px;
+    padding-left:15%;
+    padding-right: 15%;
 }
 
 #description {

@@ -3,18 +3,22 @@ import Particles from 'react-particles-js';
 import './landing.css';
 import Button from '@material-ui/core/Button';
 import { HashLink } from 'react-router-hash-link';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 class Landing extends Component {
     render() {
         return (
             <div>
-                <div className="landingText">
-                    <h1>Hello, I'm <span> Andrea</span>.<br/> I'm a Computer Science student.</h1>
-                    <Button variant="contained" size="small">
-                        <HashLink className="nav-link" smooth to="#portfolio">View my work</HashLink>
-                    </Button>
-                </div>
+                <ScrollAnimation animateIn='fadeIn'
+                                 animateOut='fadeOut' className="landingText">
+                    <div>
+                        <h1>Hello, I'm <span> Andrea</span>.<br/> I'm a Computer Science student.</h1>
+                        <Button variant="contained" size="small">
+                            <HashLink className="nav-link" smooth to="#portfolio">View my work</HashLink>
+                        </Button>
+                    </div>
+                </ScrollAnimation>
                 <Particles id="particles-js"
                    params={{
                        particles: {

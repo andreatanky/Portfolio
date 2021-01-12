@@ -4,6 +4,7 @@ import Triangle from "./triangle";
 import {Container} from "@material-ui/core";
 import EmailIcon from '@material-ui/icons/Email';
 import TelegramIcon from '@material-ui/icons/Telegram';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 class Contact extends Component {
     render() {
@@ -11,6 +12,8 @@ class Contact extends Component {
             <div id="wrapperContact">
                 <Triangle/>
                 <div id="contact">
+                    <ScrollAnimation animateIn='bounceInRight'
+                                     animateOut='bounceOutLeft'>
                     <h1>Contact</h1>
                     <p id="tag">
                         Thank you for viewing my portfolio!
@@ -25,6 +28,7 @@ class Contact extends Component {
                             <p>Send me a message on telegram at <span>@andreatanky</span></p>
                         </div>
                     </Container>
+                    </ScrollAnimation>
                 </div>
             </div>
         )

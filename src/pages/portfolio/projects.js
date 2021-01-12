@@ -15,7 +15,7 @@ import { ProjectItems } from './projectItems';
 import {FaExternalLinkSquareAlt, FaGithub} from 'react-icons/fa';
 import { FaReadme } from 'react-icons/fa';
 import styles from '../../styles/ProjectStyles';
-import DoneIcon from '@material-ui/icons/Done';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 class Projects extends Component {
@@ -65,10 +65,15 @@ class Projects extends Component {
             <div id="portfolio">
                 <Container>
                     <div>
-                        <h1>Portfolio</h1>
+                        <ScrollAnimation animateIn='bounceInRight'
+                                         animateOut='bounceOutLeft'>
+                            <h1>Portfolio</h1>
+                        </ScrollAnimation>
+                        <ScrollAnimation animateIn='fadeIn'>
                         <Grid container justify={"flex-start"} alignItems={"flex-start"} spacing={2}>
                             {this.displayCard(classes)}
                         </Grid>
+                        </ScrollAnimation>
                     </div>
                 </Container>
             </div>
