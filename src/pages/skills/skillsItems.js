@@ -22,48 +22,48 @@ export const SkillItems = [
     {
         title: "Languages",
         skills: {
-            Python: {python},
-            Java: {java},
-            JavaScript: {js},
-            C: {c},
-            Dart: {dart}
+            Python: python,
+            Java: java,
+            JavaScript: js,
+            C: c,
+            Dart: dart
         }
     },
     {
         title: "Front-end",
         skills: {
-            HTML5: {html},
-            CSS3: {css},
-            Bootstrap: {bs},
-            Flutter: {flutter},
-            React: {react}
+            HTML5: html,
+            CSS3: css,
+            Bootstrap: bs,
+            Flutter: flutter,
+            React: react
         }
     },
     {
         title: "Back-end",
         skills: {
-            NodeJS: {node},
-            Express: {express},
-            MongoDB: {mdb},
-            Firebase: {fb},
+            NodeJS: node,
+            Express: express,
+            MongoDB: mdb,
+            Firebase: fb,
         }
     },
     {
         title: "VCS",
         skills: {
-            Git: {git}
+            Git: git
         }
     },
     {
         title: "Design Tools",
         skills: {
-            AdobeXD: {adobe}
+            AdobeXD: adobe
         }
     },
     {
         title: "Hosting Platforms",
         skills: {
-            Heroku: {heroku}
+            Heroku: heroku
         }
     }
 ]
