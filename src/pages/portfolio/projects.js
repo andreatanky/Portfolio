@@ -1,10 +1,6 @@
 import React, {Component} from 'react'
-import CardItem from './cardItem';
-import './projects.css';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import {CardMedia, Chip, colors, Container, withStyles} from "@material-ui/core";
+import {CardMedia, Chip, Container, withStyles} from "@material-ui/core";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
@@ -12,8 +8,6 @@ import Typography from "@material-ui/core/Typography";
 import CardActions from "@material-ui/core/CardActions";
 import Button from "@material-ui/core/Button";
 import { ProjectItems } from './projectItems';
-import {FaExternalLinkSquareAlt, FaGithub} from 'react-icons/fa';
-import { FaReadme } from 'react-icons/fa';
 import styles from '../../styles/ProjectStyles';
 import ScrollAnimation from 'react-animate-on-scroll';
 
@@ -55,7 +49,6 @@ class Projects extends Component {
                         }
                     </CardActions>
                 </Card>
-                {/*card ends here*/}
             </Grid>
         ));
     }

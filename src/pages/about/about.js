@@ -1,6 +1,6 @@
-import React, {Component, useEffect} from 'react';
+import React from 'react';
 import './about.css';
-import {Avatar, Container, makeStyles} from "@material-ui/core";
+import {Avatar, Container} from "@material-ui/core";
 import andrea from '../../assets/proj_imgs/andrea.PNG';
 import Grid from "@material-ui/core/Grid";
 import Button from "@material-ui/core/Button";

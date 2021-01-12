@@ -7,7 +7,6 @@ import customsnooze from '../../assets/proj_imgs/customsnooze.png';
 import {FaExternalLinkSquareAlt, FaGithub} from 'react-icons/fa';
 import { FaReadme } from 'react-icons/fa';
 import React from "react";
-import EmojiEmotionsIcon from '@material-ui/icons/EmojiEmotions';
 
 export const ProjectItems = [
     {

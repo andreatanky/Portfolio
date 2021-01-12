@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './experience.css'
 import timelineElements from "./timelineElements";
 import {VerticalTimeline, VerticalTimelineElement} from "react-vertical-timeline-component";
@@ -6,9 +6,6 @@ import "react-vertical-timeline-component/style.min.css";
 import SchoolIcon from '@material-ui/icons/School';
 import WorkIcon from '@material-ui/icons/Work';
 import ScrollAnimation from 'react-animate-on-scroll';
-import {Container} from "@material-ui/core";
-import EmailIcon from "@material-ui/icons/Email";
-import TelegramIcon from "@material-ui/icons/Telegram";
 
 function Experience() {
 
