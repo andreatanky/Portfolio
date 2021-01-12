@@ -4,11 +4,6 @@
   background: linear-gradient(#e56b70, #f56476, #61a5c2);
   color: #22223b;
   font-size: calc(12px + .5vw);
-  width: 100%;
-}
-
-html,body{
-  overflow-x: hidden;
 }
 
 .App-logo {
