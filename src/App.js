@@ -9,9 +9,19 @@ import Skills from "./pages/skills/skills";
 import About from "./pages/about/about";
 import Contact from "./pages/contact/contact";
 import Grid from "@material-ui/core/Grid";
-import React from "react";
+import React, {useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
+
 
 function App() {
+
+    useEffect(() => {
+        Aos.init({
+            duration : 700
+        });
+    });
+
   return (
     <div className="App">
       <Navbar/>

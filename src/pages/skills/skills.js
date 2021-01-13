@@ -12,7 +12,7 @@ class Skills extends Component {
 
     renderSkills() {
         return SkillItems.map(e =>
-            <Grid item xs={12} sm={12} lg={12}>
+            <Grid item xs={12} sm={12} lg={12} data-aos={"fade-left"}>
                 <Box id="box" width={1} height="99%">
                     <Box className="titleBox" width="18%" height="100%">
                         {e.title}
@@ -44,11 +44,9 @@ render() {
                                  animateOut='bounceOutLeft'>
                     <h1 id="skillsText">Skills</h1>
                 </ScrollAnimation>
-                <ScrollAnimation animateIn='fadeIn'>
                 <Grid className="area" container spacing={1}>
                     {this.renderSkills()}
                 </Grid>
-                </ScrollAnimation>
             </div>
         </div>
     );

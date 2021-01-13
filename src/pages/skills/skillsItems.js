@@ -15,7 +15,8 @@ import express from '../../assets/skills_imgs/express.png';
 import node from '../../assets/skills_imgs/nodejs.png';
 import git from '../../assets/skills_imgs/git.png';
 import adobe from '../../assets/skills_imgs/xd.png';
-import heroku from '../../assets/skills_imgs/hero.png'
+import heroku from '../../assets/skills_imgs/hero.png';
+import netlify from '../../assets/skills_imgs/netlify.png'
 
 
 export const SkillItems = [
@@ -63,7 +64,8 @@ export const SkillItems = [
     {
         title: "Hosting Platforms",
         skills: {
-            Heroku: heroku
+            Heroku: heroku,
+            Netlify: netlify
         }
     }
 ]
