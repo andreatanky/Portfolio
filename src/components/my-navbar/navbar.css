@@ -15,15 +15,14 @@
     z-index : 1001;
     color: #ff006e;
     justify-content: start;
-    margin-left: 1rem;
     cursor: pointer;
-    padding-left: 80px;
+    padding-left: 90px;
     border: none;
     text-decoration: none;
 }
 
 .username:hover {
-    color: #84a59d;
+    color: #c4fff9;
 }
 
 .navbar-active {
