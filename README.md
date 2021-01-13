@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Deployment
 
-Click [here]( https://andreatanky.herokuapp.com) to view the site.
+Click [here](https://andreatanky.netlify.app) to view the site.
 
 ## Available Scripts
 
