@@ -17,10 +17,10 @@ let timelineElements = [
     },
     {
         id: 3,
-        title: "I am currently looking for an internship!",
-        subtitle: "",
-        description: "If you would like to offer me an interview, please view the contact me page. Thank you! ☻",
-        date: "Jan 2021 - Present",
+        title: "Centre for Strategic Infocomm Technologies (CSIT)",
+        subtitle: "Network Engineer, Cloud Infrastructure and Services Dept",
+        description: "I did my first Summer Internship here!",
+        date: "May 2021 - Aug 2021",
         icon: "internship"
     }
 ];
