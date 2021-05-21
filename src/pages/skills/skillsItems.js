@@ -44,7 +44,7 @@ export const SkillItems = [
         }
     },
     {
-        title: "Back-end/Databases",
+        title: "Back-end/     Databases",
         skills: {
             NodeJS: node,
             Express: express,
