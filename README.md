@@ -13,7 +13,7 @@ The website includes the following sections:
 * Portfolio
 * Contact
 
-##Tech Stack
+## Tech Stack
 * [React](https://reactjs.org/)
 * [React Particles](https://www.npmjs.com/package/react-particles-js)
 * [Material-UI](https://material-ui.com/)
