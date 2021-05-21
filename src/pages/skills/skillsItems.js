@@ -17,6 +17,9 @@ import git from '../../assets/skills_imgs/git.png';
 import adobe from '../../assets/skills_imgs/xd.png';
 import heroku from '../../assets/skills_imgs/hero.png';
 import netlify from '../../assets/skills_imgs/netlify.png'
+import my_SQL from '../../assets/skills_imgs/my_SQL.png'
+import tableau from '../../assets/skills_imgs/tableau.png'
+import domo from '../../assets/skills_imgs/domo.png'
 
 
 export const SkillItems = [
@@ -41,12 +44,13 @@ export const SkillItems = [
         }
     },
     {
-        title: "Back-end",
+        title: "Back-end/Databases",
         skills: {
             NodeJS: node,
             Express: express,
             MongoDB: mdb,
             Firebase: fb,
+            MySQL: my_SQL
         }
     },
     {
@@ -56,9 +60,10 @@ export const SkillItems = [
         }
     },
     {
-        title: "Design Tools",
+        title: "Data Analytics",
         skills: {
-            AdobeXD: adobe
+            Tableau: tableau,
+            Domo: domo
         }
     },
     {
