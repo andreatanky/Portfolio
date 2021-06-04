@@ -61,7 +61,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 526px) {
+@media screen and (max-width: 618px) {
     .titleBox {
         display: none;
     }

@@ -20,6 +20,7 @@ import netlify from '../../assets/skills_imgs/netlify.png'
 import my_SQL from '../../assets/skills_imgs/my_SQL.png'
 import tableau from '../../assets/skills_imgs/tableau.png'
 import domo from '../../assets/skills_imgs/domo.png'
+import swift from '../../assets/skills_imgs/swift.png'
 
 
 export const SkillItems = [
@@ -30,7 +31,8 @@ export const SkillItems = [
             Java: java,
             JavaScript: js,
             C: c,
-            Dart: dart
+            Dart: dart,
+            Swift: swift
         }
     },
     {

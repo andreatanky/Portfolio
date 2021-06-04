@@ -5,6 +5,7 @@ import socunite from '../../assets/proj_imgs/socunite_p.png';
 import portfolio from '../../assets/proj_imgs/portfolio.png';
 import customsnooze from '../../assets/proj_imgs/customsnooze.png';
 import {FaExternalLinkSquareAlt, FaGithub} from 'react-icons/fa';
+import weatherApp from '../../assets/proj_imgs/WeatherApp.png';
 import { FaReadme } from 'react-icons/fa';
 import React from "react";
 import EmojiEmotionsIcon from '@material-ui/icons/EmojiEmotions';
@@ -164,6 +165,21 @@ export const ProjectItems = [
             "JSS",
             "HTML",
             "CSS"
+        ]
+    },
+    {
+        imageUrl: weatherApp,
+        title: 'Weather App',
+        description: 'This weather forecast application is developed with SwiftUI and it utilises OpenWeatherMap API.',
+        url: {
+            github: {
+                link: "https://github.com/andreatanky/WeatherApp",
+                icon: <FaGithub style={{paddingLeft: '0.3em'}}/>,
+                color: '#dd2d4a'
+            },
+        },
+        techStack: [
+            "Swift"
         ]
     }
 ]
