@@ -170,7 +170,7 @@ export const ProjectItems = [
     {
         imageUrl: weatherApp,
         title: 'Weather App',
-        description: 'This weather forecast application is developed with SwiftUI and it utilises OpenWeatherMap API.',
+        description: 'This weather forecast application is developed with SwiftUI and it fetches weather conditions of the searched country with OpenWeatherMap API.',
         url: {
             github: {
                 link: "https://github.com/andreatanky/WeatherApp",

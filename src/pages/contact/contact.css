@@ -4,7 +4,7 @@
 }
 
 .containerContact {
-    padding-top: 30px;
+    padding-top: 3.0rem;
     height: 350px;
 }
 
@@ -36,7 +36,7 @@ p span {
     align-items: center;
     text-align: center;
     display:flex;
-    margin: 30px;
+    margin: 2.5rem;
     font-size: 0.8rem;
 }
 

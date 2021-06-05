@@ -19,7 +19,7 @@ let timelineElements = [
         id: 3,
         title: "Centre for Strategic Infocomm Technologies (CSIT)",
         subtitle: "Network Engineer, Cloud Infrastructure and Services Dept",
-        description: "I did my first Summer Internship here!",
+        description: "I worked on projects regarding mobile analytics development.",
         date: "May 2021 - Aug 2021",
         icon: "internship"
     }
