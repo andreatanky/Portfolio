@@ -25,3 +25,11 @@ h3, h5, p {
     box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em rgba(0, 0, 0, 0.15) !important;
     padding: 2em 3em !important;
 }
+
+@media screen and (max-width: 558px) {
+    #experience {
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
