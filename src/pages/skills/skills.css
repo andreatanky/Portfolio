@@ -31,6 +31,7 @@
     flex-direction:row;
     background-color: rgba(255, 255, 255, 0.2);
     border-radius: 15px;
+    width: 100%;
 }
 
 #para1 {
@@ -49,12 +50,6 @@
     text-align: center;
 }
 
-.area {
-    margin-top: 150px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
 #skillAvatar {
     height: 45px;
     width: 45px;
@@ -62,32 +57,42 @@
 }
 
 @media screen and (max-width: 618px) {
+    .container {
+        padding: 0;
+    }
+
     .titleBox {
-        display: none;
+        width: fit-content;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0.5rem;
+        color: white;
+        font-size: 0.7rem;
     }
 
     #box {
-        background-color: transparent;
+        width: 19rem;
     }
 
-    .container {
-        padding-bottom: 0;
+    #para1 {
+        margin-left: 0.8em;
     }
 
-    #skillsText {
-        transform: translate(-5%,0%);
-    }
-
-    .area {
-        background-color: #e43f6f;
-        width: 100%;
-        transform: translate(-5%,0%);
+    #para {
+        margin-left: 0.8em;
     }
 
     #skillAvatar {
-        height: 35px;
-        width: 35px;
+        height: 1.5rem;
+        width: 1.5rem;
         text-align: center;
     }
+
+    #skills {
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
 }
 

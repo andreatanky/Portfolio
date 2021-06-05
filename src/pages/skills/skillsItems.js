@@ -29,7 +29,7 @@ export const SkillItems = [
         skills: {
             Python: python,
             Java: java,
-            JavaScript: js,
+            JS: js,
             C: c,
             Dart: dart,
             Swift: swift
