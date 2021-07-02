@@ -16,9 +16,9 @@ import ScrollAnimation from 'react-animate-on-scroll';
 class Projects extends Component {
 
     displayCard(classes) {
-
         return ProjectItems.map(project => (
             <Grid item xs={12} sm={6} lg={4}>
+                <ScrollAnimation animateIn='fadeIn'>
                 <Card className="card" variant="outlined">
                     <CardActionArea>
                         <CardMedia
@@ -52,7 +52,7 @@ class Projects extends Component {
                         }
                     </CardActions>
                 </Card>
-                {/*card ends here*/}
+                </ScrollAnimation>
             </Grid>
         ));
     }
@@ -65,11 +65,11 @@ class Projects extends Component {
                         <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
                             <h1>Portfolio</h1>
                         </ScrollAnimation>
-                        <ScrollAnimation animateIn='fadeIn'>
+
                             <Grid container justify={"flex-start"} alignItems={"flex-start"} spacing={2}>
                                 {this.displayCard(classes)}
                             </Grid>
-                        </ScrollAnimation>
+
                     </div>
                 </Container>
             </div>

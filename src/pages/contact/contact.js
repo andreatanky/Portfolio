@@ -12,8 +12,7 @@ class Contact extends Component {
             <div id="wrapperContact">
                 <Triangle/>
                 <div id="contact">
-                    <ScrollAnimation animateIn='bounceInRight'
-                                     animateOut='bounceOutLeft'>
+                    <ScrollAnimation animateIn='fadeIn'>
                     <h1>Contact</h1>
                     <p id="tag">
                         Thank you for viewing my portfolio!
