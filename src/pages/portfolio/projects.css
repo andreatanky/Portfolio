@@ -44,3 +44,8 @@ text-align: center;
  display: flex;
  font-size: 1em;
 }
+
+.card {
+ background-color: white;
+ border-radius: 2%;
+}

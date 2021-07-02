@@ -1,10 +1,7 @@
 import React, {Component} from 'react'
-import CardItem from './cardItem';
 import './projects.css';
-import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-import {CardMedia, Chip, colors, Container, withStyles} from "@material-ui/core";
+import {CardMedia, Chip, Container, withStyles} from "@material-ui/core";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
@@ -12,17 +9,17 @@ import Typography from "@material-ui/core/Typography";
 import CardActions from "@material-ui/core/CardActions";
 import Button from "@material-ui/core/Button";
 import { ProjectItems } from './projectItems';
-import {FaExternalLinkSquareAlt, FaGithub} from 'react-icons/fa';
-import { FaReadme } from 'react-icons/fa';
 import styles from '../../styles/ProjectStyles';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
 class Projects extends Component {
+
     displayCard(classes) {
+
         return ProjectItems.map(project => (
             <Grid item xs={12} sm={6} lg={4}>
-                <Card className="card" style={{backgroundColor: "#ffff", borderRadius: '2%'}} variant="outlined">
+                <Card className="card" variant="outlined">
                     <CardActionArea>
                         <CardMedia
                             className={classes.cardMedia}
@@ -48,7 +45,7 @@ class Projects extends Component {
                     <CardActions id="buttonsWrapper">
                         {
                             Object.entries(project.url).map(u =>
-                                <Button id="button" href={u[1].link} target="_blank" id="button" variant="contained" size="small" style={{backgroundColor: `${u[1].color}`}}>
+                                <Button id="button" href={u[1].link} target="_blank" variant="contained" size="small" style={{backgroundColor: `${u[1].color}`}}>
                                     {u[0]}{u[1].icon}
                                 </Button>
                             )
@@ -65,14 +62,13 @@ class Projects extends Component {
             <div id="portfolio">
                 <Container>
                     <div>
-                        <ScrollAnimation animateIn='bounceInRight'
-                                         animateOut='bounceOutLeft'>
+                        <ScrollAnimation animateIn='bounceInRight' animateOut='bounceOutLeft'>
                             <h1>Portfolio</h1>
                         </ScrollAnimation>
                         <ScrollAnimation animateIn='fadeIn'>
-                        <Grid container justify={"flex-start"} alignItems={"flex-start"} spacing={2}>
-                            {this.displayCard(classes)}
-                        </Grid>
+                            <Grid container justify={"flex-start"} alignItems={"flex-start"} spacing={2}>
+                                {this.displayCard(classes)}
+                            </Grid>
                         </ScrollAnimation>
                     </div>
                 </Container>
